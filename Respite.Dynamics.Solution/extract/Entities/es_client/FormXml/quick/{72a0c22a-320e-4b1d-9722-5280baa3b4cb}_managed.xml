@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{72a0c22a-320e-4b1d-9722-5280baa3b4cb}</formid>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{b8c0fcc4-1822-4027-abfc-6212f29f59b6}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{c812e91a-1593-4b5a-b149-dd558c4c70d2}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5b1c15e3-2a2b-ed7a-6213-b2677034a2a8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_casenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_casenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{92859035-b891-e870-dbad-412503b7c169}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_addressline1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_addressline1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{640106e4-371c-08e7-4665-b69028d28987}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_addressline2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_addressline2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aac579d7-4ac7-ee28-ea4c-731451d27a34}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_addresscity" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_addresscity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{86a06dc8-c572-6548-ac5d-45e679cc77ac}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_zipcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_zipcode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Quick View  - Voucher" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

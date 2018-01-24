@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e0adc1e5-4655-4e57-b957-65f2dcfb93b0}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="es_name" select="1" icon="1" preview="0">
+        <row name="es_client" id="es_clientid">
+          <cell name="es_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_casenumber" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_emailaddress" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_firstname" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_lastname" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_primaryphonenumber" width="100" />
+          <cell name="es_secondaryphonenumber" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="es_client">
+          <attribute name="es_clientid" />
+          <attribute name="es_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="es_name" descending="false" />
+          <attribute name="es_secondaryphonenumber" />
+          <attribute name="es_primaryphonenumber" />
+          <attribute name="es_lastname" />
+          <attribute name="es_firstname" />
+          <attribute name="es_emailaddress" />
+          <attribute name="es_casenumber" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Client Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

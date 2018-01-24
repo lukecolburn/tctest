@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{7189560a-3ad1-42ae-b362-f73660346df9}</formid>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{17ee9155-cd5d-4cf5-aa40-8359a1c802b7}" IsUserDefined="1" name="{17ee9155-cd5d-4cf5-aa40-8359a1c802b7}" locklevel="0" expanded="true" showlabel="true" labelid="{6f3a75a6-1c3e-41d0-b507-a8bad4c9dafe}">
+          <labels>
+            <label description="Time Period" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4280cea2-0ae0-45b9-aed0-2232242a16d9}" name="{4280cea2-0ae0-45b9-aed0-2232242a16d9}" columns="111" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" labelid="{f0ebb1a0-a99d-4e82-a8ab-082c9b5fdcd0}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b5a77987-e2ee-1500-5959-e0ad42259073}" showlabel="true" locklevel="0" labelid="{770e48ed-e5cd-40bc-b1e1-7875bde2a483}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="es_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_name" disabled="false" />
+                      </cell>
+                      <cell id="{b8e9128d-ee60-a974-6414-da5d2c7b6253}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Time Period Open Date" languagecode="1033" />
+                        </labels>
+                        <control id="es_timeperiodopendate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_timeperiodopendate" disabled="false" />
+                      </cell>
+                      <cell id="{1c4821c3-08d8-10e2-037d-aac8281016cb}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{18d4b5a5-a8ea-7299-6698-dedc694d323d}" showlabel="true" locklevel="0" labelid="{daa21a9a-3d91-4479-b57b-5ccaa1b792f1}">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="es_startdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_startdate" disabled="false" />
+                      </cell>
+                      <cell id="{d2bba84a-0a22-9182-1b4b-e89c6c7591a6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Time Period Close Date" languagecode="1033" />
+                        </labels>
+                        <control id="es_timeperiodclosedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_timeperiodclosedate" disabled="false" />
+                      </cell>
+                      <cell id="{de091b69-a75e-e9a4-9018-6aa2dc6c3681}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41dea9b7-3199-074b-7778-b2dd99268a06}" showlabel="true" locklevel="0" labelid="{a672e229-62a4-4cee-97e1-b0e318053046}">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="es_enddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_enddate" disabled="false" />
+                      </cell>
+                      <cell id="{80a8211a-5476-8757-9204-a8080add9b8e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{7e3bc07e-5615-728a-560b-9d1b91740b5d}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2b2f9736-fa25-4cf3-8186-094d0bd38552}" columns="111">
+        <rows>
+          <row>
+            <cell id="{180c5eb2-66b6-4909-b0db-4c1bdce7513d}" labelid="{54f21687-d92b-4f80-a6e6-cbd165688eb4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d4075a0b-5be1-edab-7c64-5b89999d26e8}" showlabel="true" locklevel="0" labelid="{73827990-543a-4aea-a015-9068e4d1870a}">
+              <labels>
+                <label description="Name" languagecode="1033" />
+              </labels>
+              <control id="header_es_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_name" disabled="false" />
+            </cell>
+            <cell id="{342ed69a-c411-c9c6-44aa-5299ed1eb624}" showlabel="true" locklevel="0" labelid="{5a01feac-f2b9-47ac-a51e-050493d3ed88}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="1">
+        <Role Id="{92873FC1-61C9-E711-A950-000D3A37043B}" />
+        <Role Id="{320C1BB8-61C9-E711-A950-000D3A37043B}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

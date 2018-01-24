@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{122c1f5d-4676-4c40-b03f-0d7d5c78685b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="es_name" select="1" icon="1" preview="1">
+        <row name="result" id="es_clientid">
+          <cell name="es_name" width="300" />
+          <cell name="es_casenumber" width="100" />
+          <cell name="es_dateofbirth" width="100" />
+          <cell name="es_homephone" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="es_client">
+          <attribute name="es_name" />
+          <order attribute="es_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="es_homephone" />
+          <attribute name="es_dateofbirth" />
+          <attribute name="es_casenumber" />
+          <attribute name="es_clientid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Clients" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{5e93355c-c6cb-e711-a950-000d3a37043b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="es_name" select="1" preview="1" icon="1">
+        <row name="result" id="es_clientid">
+          <cell name="es_lastname" width="100" />
+          <cell name="es_firstname" width="100" />
+          <cell name="es_casenumber" width="100" />
+          <cell name="es_emailaddress" width="100" />
+          <cell name="es_primaryphonenumber" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="es_client">
+          <order attribute="es_lastname" descending="false" />
+          <order attribute="es_firstname" descending="false" />
+          <attribute name="es_lastname" />
+          <attribute name="es_firstname" />
+          <attribute name="es_emailaddress" />
+          <attribute name="es_casenumber" />
+          <attribute name="es_primaryphonenumber" />
+          <attribute name="es_clientid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Clients" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

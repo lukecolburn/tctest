@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{ae13ddd8-62ea-e711-a956-000d3a370e23}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="es_name" select="1" preview="1" icon="1">
+        <row name="result" id="es_providerid">
+          <cell name="es_name" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="es_provider">
+          <attribute name="es_name" />
+          <order attribute="es_name" descending="false" />
+          <filter type="and">
+            <condition attribute="es_backgroundcheckexpirationdate" operator="next-x-years" value="100" />
+            <condition attribute="es_backgroundcheckstatus" operator="eq" value="717580001" />
+            <condition attribute="es_cprtrainingexpirationdate" operator="next-x-years" value="100" />
+            <condition attribute="es_hasvalidid" operator="eq" value="1" />
+            <condition attribute="es_firstaidtrainingexpirationdate" operator="next-x-years" value="100" />
+            <condition attribute="es_trainingmodulesexpirationdate" operator="next-x-years" value="100" />
+          </filter>
+          <attribute name="es_providerid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Valid Active Providers" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Providers that have up to date training, background check, cpr and valid id" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{b63180e7-9dc2-4e38-ad45-bd8119a40390}</formid>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{44db9072-80ef-40f6-8c43-a5501a9e33f2}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{17d84e5d-23d9-48e8-af2e-5be16a592d84}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{733ecc10-7229-1114-d6d1-98a56d12d071}" showlabel="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_starttime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_starttime" disabled="false" uniqueid="{3cb541e4-0132-c7d0-a8d6-75542b833c97}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a95001c5-87aa-1ddb-9e5a-7c5acc4da474}" showlabel="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_endtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_endtime" disabled="false" uniqueid="{8558403d-0ca3-9d86-7ece-b3de0c260221}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{7fe45b69-a387-4d02-b62e-3cbbf6bf6320}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4cc09e45-ca56-bd4b-e619-19b2b46ccd3b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_location" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="es_location" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0259dc01-2a68-1a8d-8a70-6c0c980e37e7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_activities" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="es_activities" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{edda6d7b-e2cc-4b79-a983-94a4168a030b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_otheractivities" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_otheractivities" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{d88a7c1a-1e8b-4186-b6fe-fec7e35e6512}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a6ed7367-3575-7881-475c-60a2c86eeaee}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_voucher" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="es_voucher" disabled="true" uniqueid="{b9427497-45e3-e3a9-97d4-ca716c74c880}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{898269B9-2899-40D3-96EB-666B1E066320}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="es_SDK.REST.js" libraryUniqueId="{9699d1a8-6047-6010-91b4-dd52826d048b}" />
+        <Library name="es_TimeEntryRules" libraryUniqueId="{2bc6aaa1-ca64-b60b-5592-bb430915ba2b}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <dependencies>
+            <dependency id="es_voucher" />
+          </dependencies>
+          <Handlers>
+            <Handler functionName="setUpTimeEntryRules" libraryName="es_TimeEntryRules" handlerUniqueId="{a6a8bce2-cb78-0c03-ed46-99b27ec69ede}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="es_starttime">
+          <Handlers>
+            <Handler functionName="onChangeTime" libraryName="es_TimeEntryRules" handlerUniqueId="{15ab6a21-cdb4-d74c-aeac-a1881bb850a9}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="es_endtime">
+          <Handlers>
+            <Handler functionName="onChangeTime" libraryName="es_SDK.REST.js" handlerUniqueId="{476dc844-a0b1-7e4b-c483-73c633beb9dd}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="New Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

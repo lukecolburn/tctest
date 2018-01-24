@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{6582bc5f-8ec5-e711-a952-000d3a370909}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="es_name" select="1" icon="1" preview="1">
+        <row name="result" id="es_providerid">
+          <cell name="es_name" width="150" />
+          <cell name="es_cprtrainingexpirationdate" width="150" />
+          <cell name="es_firstaidtrainingexpirationdate" width="150" />
+          <cell name="es_trainingmodulesexpirationdate" width="150" />
+          <cell name="es_phonenumber" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="es_provider">
+          <attribute name="es_name" />
+          <attribute name="es_firstaidtrainingexpirationdate" />
+          <attribute name="es_trainingmodulesexpirationdate" />
+          <attribute name="es_cprtrainingexpirationdate" />
+          <attribute name="es_phonenumber" />
+          <filter type="and">
+            <filter type="or">
+              <condition attribute="es_firstaidtrainingexpirationdate" operator="olderthan-x-days" value="1" />
+              <condition attribute="es_cprtrainingexpirationdate" operator="olderthan-x-days" value="1" />
+              <condition attribute="es_trainingmodulesexpirationdate" operator="olderthan-x-days" value="1" />
+            </filter>
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Training Expired" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

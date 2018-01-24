@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{af9043cc-c4de-e711-a952-000d3a3702ca}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="es_name" select="1" preview="1" icon="1">
+        <row name="result" id="es_providerapplicationid">
+          <cell name="es_provider" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_relationshiptoclient" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_providersignaturedate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="es_providerapplication">
+          <order attribute="es_provider" descending="false" />
+          <attribute name="es_relationshiptoclient" />
+          <attribute name="es_providersignaturedate" />
+          <attribute name="es_provider" />
+          <attribute name="es_providerapplicationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Client ProviderRelationships" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

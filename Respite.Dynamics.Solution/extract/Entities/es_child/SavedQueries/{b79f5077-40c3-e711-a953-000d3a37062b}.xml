@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b79f5077-40c3-e711-a953-000d3a37062b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="es_name" select="1" preview="1" icon="1">
+        <row name="result" id="es_childid">
+          <cell name="es_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_dateofbirth" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_receivesrespitefromeasterseals" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="es_child">
+          <attribute name="es_name" />
+          <order attribute="es_name" descending="false" />
+          <attribute name="es_receivesrespitefromeasterseals" />
+          <attribute name="es_dateofbirth" />
+          <attribute name="es_childid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Client Children" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

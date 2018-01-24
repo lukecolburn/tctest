@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{b6b448fd-cad6-e711-a951-000d3a3702ca}</WebResourceId>
+  <Name>es_RespiteLogo</Name>
+  <DisplayName>Respite Logo</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>0.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/es_RespiteLogoB6B448FD-CAD6-E711-A951-000D3A3702CA</FileName>
+</WebResource>

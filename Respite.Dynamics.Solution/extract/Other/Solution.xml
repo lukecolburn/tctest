@@ -1,0 +1,931 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.0.0000.3172" SolutionPackageVersion="9.0" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>RespiteCare</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Respite Care" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Upgrade of Respite Care" languagecode="1033" />
+    </Descriptions>
+    <Version>0.0.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>easterseals</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Easter Seals" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>es</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>71758</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="es_application" behavior="0" />
+      <RootComponent type="1" schemaName="es_child" behavior="0" />
+      <RootComponent type="1" schemaName="es_client" behavior="0" />
+      <RootComponent type="1" schemaName="es_enrollmentperiod" behavior="0" />
+      <RootComponent type="1" schemaName="es_parentguardian" behavior="0" />
+      <RootComponent type="1" schemaName="es_provider" behavior="0" />
+      <RootComponent type="1" schemaName="es_providerapplication" behavior="0" />
+      <RootComponent type="1" schemaName="es_timeentry" behavior="0" />
+      <RootComponent type="1" schemaName="es_timeperiod" behavior="0" />
+      <RootComponent type="1" schemaName="es_voucher" behavior="0" />
+      <RootComponent type="1" schemaName="systemuser" behavior="0" />
+      <RootComponent type="9" schemaName="es_applicationsource" behavior="0" />
+      <RootComponent type="9" schemaName="es_parentguardianrelationship" behavior="0" />
+      <RootComponent type="9" schemaName="es_usstates" behavior="0" />
+      <RootComponent type="20" id="{320c1bb8-61c9-e711-a950-000d3a37043b}" behavior="0" />
+      <RootComponent type="20" id="{92873fc1-61c9-e711-a950-000d3a37043b}" behavior="0" />
+      <RootComponent type="29" id="{14ba1a88-0a8a-4764-a2a6-9f2513dd877b}" behavior="0" />
+      <RootComponent type="29" id="{1663c4f1-46c3-e711-a954-000d3a370e23}" behavior="0" />
+      <RootComponent type="29" id="{18ce7e74-cbb6-4d4d-9b2f-e8d7f53005e9}" behavior="0" />
+      <RootComponent type="29" id="{24168604-c429-4637-a91c-629332503cd6}" behavior="0" />
+      <RootComponent type="29" id="{5285563f-0045-4938-ac80-235c1dcf2077}" behavior="0" />
+      <RootComponent type="29" id="{664eae32-0288-41ef-a906-55fc0597bd72}" behavior="0" />
+      <RootComponent type="29" id="{7f00c07f-440e-4de8-8e15-174591fd30eb}" behavior="0" />
+      <RootComponent type="29" id="{87d19064-d004-42a2-94be-708a938b5bde}" behavior="0" />
+      <RootComponent type="29" id="{96dcf8fb-f5a2-4fac-b351-538c72278e97}" behavior="0" />
+      <RootComponent type="29" id="{a6a789da-c6cb-e711-a953-000d3a37062b}" behavior="0" />
+      <RootComponent type="29" id="{b1aa3b49-56b2-4de9-83bb-892366d753cb}" behavior="0" />
+      <RootComponent type="29" id="{c5a17e20-980b-4973-a7f3-662c3937ae44}" behavior="0" />
+      <RootComponent type="29" id="{ca39aefb-610b-4f85-b9cf-451d9a5a06c2}" behavior="0" />
+      <RootComponent type="29" id="{e1e3f999-02cb-e711-a952-000d3a370909}" behavior="0" />
+      <RootComponent type="29" id="{e8f3f863-e9c3-e711-a952-000d3a370909}" behavior="0" />
+      <RootComponent type="29" id="{f258c4c5-1fe2-48a7-a2ce-4f841f574bea}" behavior="0" />
+      <RootComponent type="29" id="{fce794c5-3c2b-45da-9fcf-a4172b1656a2}" behavior="0" />
+      <RootComponent type="29" id="{fd90e6c3-e7c3-e711-a952-000d3a370909}" behavior="0" />
+      <RootComponent type="60" id="{014f1942-bd29-4ea6-9450-3d60d3dfb2ef}" behavior="0" />
+      <RootComponent type="60" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" behavior="0" />
+      <RootComponent type="60" id="{0eba0cbf-b2d9-41e9-9955-a333080c2973}" behavior="0" />
+      <RootComponent type="60" id="{11b2b923-01ba-4eca-8aab-93615ac561e8}" behavior="0" />
+      <RootComponent type="60" id="{1289a1b3-d6f3-4469-b2fc-40cd61875379}" behavior="0" />
+      <RootComponent type="60" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" behavior="0" />
+      <RootComponent type="60" id="{1e5d1e81-89a2-4eb1-8d1a-539a67936483}" behavior="0" />
+      <RootComponent type="60" id="{23cd5bf6-d453-46ef-b34f-b8bcae7e8dfb}" behavior="0" />
+      <RootComponent type="60" id="{25b754f5-7563-df11-ae90-00155d2e3002}" behavior="0" />
+      <RootComponent type="60" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" behavior="0" />
+      <RootComponent type="60" id="{28be2191-b03e-496b-a0df-9dc0ae05aebe}" behavior="0" />
+      <RootComponent type="60" id="{2e3d0841-fa6d-df11-986c-00155d2e3002}" behavior="0" />
+      <RootComponent type="60" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" behavior="0" />
+      <RootComponent type="60" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" behavior="0" />
+      <RootComponent type="60" id="{47072be8-38e7-4b95-b38f-a10a5c84de90}" behavior="0" />
+      <RootComponent type="60" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" behavior="0" />
+      <RootComponent type="60" id="{57220268-843b-e511-80d1-00155db10d2b}" behavior="0" />
+      <RootComponent type="60" id="{58ca7a59-838e-4be5-97f0-f1eab37fdff4}" behavior="0" />
+      <RootComponent type="60" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" behavior="0" />
+      <RootComponent type="60" id="{5eb936cc-0f89-4368-9611-cf0bb2efb635}" behavior="0" />
+      <RootComponent type="60" id="{64d703b2-edc5-422a-9a56-73aab3463e46}" behavior="0" />
+      <RootComponent type="60" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" behavior="0" />
+      <RootComponent type="60" id="{6e00802f-8c73-df11-986c-00155d2e3002}" behavior="0" />
+      <RootComponent type="60" id="{7189560a-3ad1-42ae-b362-f73660346df9}" behavior="0" />
+      <RootComponent type="60" id="{72a0c22a-320e-4b1d-9722-5280baa3b4cb}" behavior="0" />
+      <RootComponent type="60" id="{799f7fb1-31cc-4054-b73e-f772e4b944cf}" behavior="0" />
+      <RootComponent type="60" id="{7a00bfd4-cf09-4a82-8870-fb39956d18a5}" behavior="0" />
+      <RootComponent type="60" id="{90d8d465-2e1b-48bc-81c5-ef22494dc8cf}" behavior="0" />
+      <RootComponent type="60" id="{95f2e667-95c3-e611-80d6-00155db7dbc8}" behavior="0" />
+      <RootComponent type="60" id="{9de2de6f-1b31-4b2f-be64-db1fe3eeda7c}" behavior="0" />
+      <RootComponent type="60" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" behavior="0" />
+      <RootComponent type="60" id="{a0657097-0dbb-40b8-a05a-4e93ca852e40}" behavior="0" />
+      <RootComponent type="60" id="{a104b835-9f3b-e511-80d1-00155db10d2b}" behavior="0" />
+      <RootComponent type="60" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" behavior="0" />
+      <RootComponent type="60" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" behavior="0" />
+      <RootComponent type="60" id="{ae099346-04bd-48e6-93c9-0af39a93f525}" behavior="0" />
+      <RootComponent type="60" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" behavior="0" />
+      <RootComponent type="60" id="{b63180e7-9dc2-4e38-ad45-bd8119a40390}" behavior="0" />
+      <RootComponent type="60" id="{c378c42a-ed4d-4f60-9d17-f71b8bfb91df}" behavior="0" />
+      <RootComponent type="60" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" behavior="0" />
+      <RootComponent type="60" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" behavior="0" />
+      <RootComponent type="60" id="{d71c508f-ee6c-4d07-b9a2-68e442058099}" behavior="0" />
+      <RootComponent type="60" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" behavior="0" />
+      <RootComponent type="60" id="{ef89da63-f0c3-e711-a950-000d3a37043b}" behavior="0" />
+      <RootComponent type="60" id="{f469f4c0-98d8-47f2-aa0a-604f4a489a29}" behavior="0" />
+      <RootComponent type="60" id="{fa600a42-f913-4efe-aac4-2857fa7536db}" behavior="0" />
+      <RootComponent type="61" schemaName="es_/Images/calendar.svg" behavior="0" />
+      <RootComponent type="61" schemaName="es_/Images/document_money.svg" behavior="0" />
+      <RootComponent type="61" schemaName="es_/Images/document_time.svg" behavior="0" />
+      <RootComponent type="61" schemaName="es_/Images/file_folder.svg" behavior="0" />
+      <RootComponent type="61" schemaName="es_/Images/person.svg" behavior="0" />
+      <RootComponent type="61" schemaName="es_/Images/person_card.svg" behavior="0" />
+      <RootComponent type="61" schemaName="es_/Images/person_question.svg" behavior="0" />
+      <RootComponent type="61" schemaName="es_FieldFormatter" behavior="0" />
+      <RootComponent type="61" schemaName="es_RespiteLogo" behavior="0" />
+      <RootComponent type="61" schemaName="es_SDK.REST.js" behavior="0" />
+      <RootComponent type="61" schemaName="es_SignatureDateRules" behavior="0" />
+      <RootComponent type="61" schemaName="es_TimeEntryRules" behavior="0" />
+      <RootComponent type="61" schemaName="es_VoucherBusinessRules" behavior="0" />
+      <RootComponent type="62" behavior="0" />
+      <RootComponent type="62" schemaName="es_RespiteCare" behavior="0" />
+      <RootComponent type="80" schemaName="es_RespiteCare" behavior="0" />
+      <RootComponent type="91" id="{d37ddddb-8b97-48ab-a29f-d66b2c3e17ec}" schemaName="Respite.Dynamics.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b31f11db6d509d64" behavior="0" />
+      <RootComponent type="92" id="{4d126748-8cc9-e711-a950-000d3a37043b}" behavior="0" />
+      <RootComponent type="92" id="{e88ce00b-4bd1-e711-a950-000d3a37043b}" behavior="0" />
+      <RootComponent type="92" id="{fd7fe83e-62eb-e711-a952-000d3a37043b}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mbs_pluginprofile" displayName="Plug-in Profile" solution="PluginProfiler (2.0.0.0)" />
+        <Dependent key="1" type="1" schemaName="systemuser" displayName="User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="1" schemaName="systemuser" displayName="User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="msdyn_postconfig" displayName="Post Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="4" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.3.34)" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.3.34)" />
+        <Dependent key="7" type="60" displayName="Marketing Social Dashboard" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" />
+        <Dependent key="9" type="60" displayName="Microsoft Dynamics 365 Overview" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" />
+        <Dependent key="10" type="60" displayName="Sales Dashboard" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" />
+        <Dependent key="11" type="60" displayName="Sales Activity Dashboard" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" />
+        <Dependent key="13" type="60" displayName="Microsoft Dynamics 365 Social Overview" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" />
+        <Dependent key="14" type="60" displayName="Sales Overview Dashboard" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" />
+        <Dependent key="11" type="60" displayName="Sales Activity Dashboard" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" />
+        <Dependent key="9" type="60" displayName="Microsoft Dynamics 365 Overview" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" />
+        <Dependent key="10" type="60" displayName="Sales Dashboard" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" />
+        <Dependent key="7" type="60" displayName="Marketing Social Dashboard" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" />
+        <Dependent key="13" type="60" displayName="Microsoft Dynamics 365 Social Overview" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" />
+        <Dependent key="16" type="60" displayName="Sales Performance Dashboard" id="{25b754f5-7563-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" />
+        <Dependent key="14" type="60" displayName="Sales Overview Dashboard" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="19" type="60" displayName="Customer Service Performance Dashboard (original version)" id="{2e3d0841-fa6d-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="20" type="60" displayName="Customer Service Representative Social Dashboard (original version)" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="9" type="60" displayName="Microsoft Dynamics 365 Overview" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="22" type="60" displayName="Customer Service Manager Dashboard" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="23" type="60" displayName="Customer Service Representative Dashboard" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="24" type="60" displayName="Tier 1 Dashboard" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="13" type="60" displayName="Microsoft Dynamics 365 Social Overview" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mbs_pluginprofile" displayName="Plug-in Profile" solution="PluginProfiler (2.0.0.0)" />
+        <Dependent key="4" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.3.34)" />
+        <Dependent key="4" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="1" schemaName="entitlement" displayName="Entitlement" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="22" type="60" displayName="Customer Service Manager Dashboard" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="1" schemaName="msdyn_postruleconfig" displayName="Post Rule Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="4" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="24" type="60" displayName="Tier 1 Dashboard" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="2" schemaName="siteid" displayName="Site" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_Service (9.0.3.34)" />
+        <Dependent key="32" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_AppCommon (9.0.3.34)" />
+        <Dependent key="32" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="20" displayName="Salesperson" solution="msdynce_Sales (9.0.3.34)" id="{71840fb5-3aaa-46d1-9708-e06fc36604f1}" parentId="{a4be89ff-7c35-4d69-9900-999c3f603e6f}" />
+        <Dependent key="35" type="80" schemaName="es_RespiteCare" displayName="Respite Care" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="26" schemaName="My Open Leads" displayName="My Open Leads" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001005}" />
+        <Dependent key="10" type="60" displayName="Sales Dashboard" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="26" schemaName="My Open Leads" displayName="My Open Leads" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001005}" />
+        <Dependent key="11" type="60" displayName="Sales Activity Dashboard" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="26" schemaName="My Open Leads" displayName="My Open Leads" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001005}" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="26" schemaName="My Resolved Cases" displayName="My Resolved Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001029}" />
+        <Dependent key="20" type="60" displayName="Customer Service Representative Social Dashboard (original version)" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="26" schemaName="My Resolved Cases" displayName="My Resolved Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001029}" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="26" schemaName="My Resolved Cases" displayName="My Resolved Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001029}" />
+        <Dependent key="23" type="60" displayName="Customer Service Representative Dashboard" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="26" schemaName="My Resolved Cases" displayName="My Resolved Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001029}" />
+        <Dependent key="24" type="60" displayName="Tier 1 Dashboard" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="26" schemaName="All Cases" displayName="All Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001030}" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="26" schemaName="All Cases" displayName="All Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001030}" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="26" schemaName="All Leads" displayName="All Leads" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" id="{5a926b99-3a5f-df11-ae90-00155d2e3002}" />
+        <Dependent key="14" type="60" displayName="Sales Overview Dashboard" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="26" schemaName="Open Opportunities" displayName="Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{00000000-0000-0000-00aa-000010003001}" />
+        <Dependent key="16" type="60" displayName="Sales Performance Dashboard" id="{25b754f5-7563-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="26" schemaName="Open Opportunities" displayName="Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{00000000-0000-0000-00aa-000010003001}" />
+        <Dependent key="13" type="60" displayName="Microsoft Dynamics 365 Social Overview" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="26" schemaName="Open Opportunities" displayName="Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{00000000-0000-0000-00aa-000010003001}" />
+        <Dependent key="9" type="60" displayName="Microsoft Dynamics 365 Overview" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{00000000-0000-0000-00aa-000010003000}" />
+        <Dependent key="16" type="60" displayName="Sales Performance Dashboard" id="{25b754f5-7563-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{00000000-0000-0000-00aa-000010003000}" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{00000000-0000-0000-00aa-000010003000}" />
+        <Dependent key="14" type="60" displayName="Sales Overview Dashboard" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{00000000-0000-0000-00aa-000010003000}" />
+        <Dependent key="10" type="60" displayName="Sales Dashboard" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{00000000-0000-0000-00aa-000010003000}" />
+        <Dependent key="11" type="60" displayName="Sales Activity Dashboard" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="42" type="26" schemaName="Resolved Cases" displayName="Resolved Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001034}" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="26" schemaName="My Closed Opportunities in Current Fiscal Year" displayName="My Closed Opportunities in Current Fiscal Year" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{31dae384-a86f-df11-986c-00155d2e3002}" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="26" schemaName="My Closed Opportunities in Current Fiscal Year" displayName="My Closed Opportunities in Current Fiscal Year" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{31dae384-a86f-df11-986c-00155d2e3002}" />
+        <Dependent key="11" type="60" displayName="Sales Activity Dashboard" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="26" schemaName="My Closed Opportunities in Current Fiscal Year" displayName="My Closed Opportunities in Current Fiscal Year" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{31dae384-a86f-df11-986c-00155d2e3002}" />
+        <Dependent key="10" type="60" displayName="Sales Dashboard" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="26" schemaName="Closed Opportunities in Current Fiscal Year" displayName="Closed Opportunities in Current Fiscal Year" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{9bee7ca3-b068-df11-ae90-00155d2e3002}" />
+        <Dependent key="16" type="60" displayName="Sales Performance Dashboard" id="{25b754f5-7563-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="26" schemaName="Closed Opportunities in Current Fiscal Year" displayName="Closed Opportunities in Current Fiscal Year" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{9bee7ca3-b068-df11-ae90-00155d2e3002}" />
+        <Dependent key="7" type="60" displayName="Marketing Social Dashboard" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="26" schemaName="Closed Opportunities in Current Fiscal Year" displayName="Closed Opportunities in Current Fiscal Year" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{9bee7ca3-b068-df11-ae90-00155d2e3002}" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="26" schemaName="Active Cases" displayName="Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001032}" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="26" schemaName="Active Cases" displayName="Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001032}" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="26" schemaName="Active Cases" displayName="Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001032}" />
+        <Dependent key="22" type="60" displayName="Customer Service Manager Dashboard" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="26" schemaName="Active Cases" displayName="Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001032}" />
+        <Dependent key="24" type="60" displayName="Tier 1 Dashboard" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="26" schemaName="Active Cases" displayName="Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001032}" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="26" schemaName="All leads in current fiscal year" displayName="All leads in current fiscal year" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" id="{42051953-0b19-4c1f-9398-d3ab897b124a}" />
+        <Dependent key="13" type="60" displayName="Microsoft Dynamics 365 Social Overview" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="26" schemaName="All leads in current fiscal year" displayName="All leads in current fiscal year" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" id="{42051953-0b19-4c1f-9398-d3ab897b124a}" />
+        <Dependent key="9" type="60" displayName="Microsoft Dynamics 365 Overview" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="26" schemaName="All leads in current fiscal year" displayName="All leads in current fiscal year" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" id="{42051953-0b19-4c1f-9398-d3ab897b124a}" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Dependent key="20" type="60" displayName="Customer Service Representative Social Dashboard (original version)" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Dependent key="9" type="60" displayName="Microsoft Dynamics 365 Overview" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Dependent key="23" type="60" displayName="Customer Service Representative Dashboard" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Dependent key="13" type="60" displayName="Microsoft Dynamics 365 Social Overview" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="26" schemaName="My Team Members' Resolved Cases" displayName="My Team Members' Resolved Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{2d5e1400-f86d-df11-986c-00155d2e3002}" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="49" type="26" schemaName="Active Cases Opened in the Last 7 days" displayName="Active Cases Opened in the Last 7 days" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{429bd987-ac6f-df11-986c-00155d2e3002}" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="26" schemaName="Cases Resolved in the last 7 days" displayName="Cases Resolved in the last 7 days" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{1853caa4-255f-df11-ae90-00155d2e3002}" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="26" schemaName="Cases Resolved in the last 7 days" displayName="Cases Resolved in the last 7 days" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{1853caa4-255f-df11-ae90-00155d2e3002}" />
+        <Dependent key="19" type="60" displayName="Customer Service Performance Dashboard (original version)" id="{2e3d0841-fa6d-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="26" schemaName="Cases Resolved in the last 7 days" displayName="Cases Resolved in the last 7 days" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{1853caa4-255f-df11-ae90-00155d2e3002}" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="26" schemaName="All Entitlements" displayName="All Entitlements" parentSchemaName="entitlement" parentDisplayName="Entitlement" solution="msdynce_Service (9.0.3.34)" id="{aa69e7e2-913a-4a5a-8609-8ca443554909}" />
+        <Dependent key="22" type="60" displayName="Customer Service Manager Dashboard" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="26" schemaName="My Campaigns" displayName="My Campaigns" parentSchemaName="campaign" parentDisplayName="Campaign" solution="msdynce_Marketing (9.0.3.34)" id="{7f68a34b-26f1-430f-b3ef-7079f2925c69}" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="26" schemaName="My Campaigns" displayName="My Campaigns" parentSchemaName="campaign" parentDisplayName="Campaign" solution="msdynce_Marketing (9.0.3.34)" id="{7f68a34b-26f1-430f-b3ef-7079f2925c69}" />
+        <Dependent key="7" type="60" displayName="Marketing Social Dashboard" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="26" schemaName="Cases Opened in the Last 7 days" displayName="Cases Opened in the Last 7 days" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{c111f612-1563-df11-ae90-00155d2e3002}" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="26" schemaName="All Campaigns for Current Fiscal Year" displayName="All Campaigns for Current Fiscal Year" parentSchemaName="campaign" parentDisplayName="Campaign" solution="msdynce_Marketing (9.0.3.34)" id="{c933b407-c568-df11-986c-00155d2e3002}" />
+        <Dependent key="7" type="60" displayName="Marketing Social Dashboard" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="26" schemaName="All Campaigns for Current Fiscal Year" displayName="All Campaigns for Current Fiscal Year" parentSchemaName="campaign" parentDisplayName="Campaign" solution="msdynce_Marketing (9.0.3.34)" id="{c933b407-c568-df11-986c-00155d2e3002}" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="59" schemaName="Cases resolved using KB articles (By Subject)" displayName="Cases resolved using KB articles (By Subject)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{6fa1977d-77b4-474b-9492-68bc75cd361d}" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="59" schemaName="Case Creation Trend" displayName="Case Creation Trend" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{d6bc80ca-763b-4236-a599-c52c1317e482}" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="57" type="59" schemaName="Case Mix by Incident Type" displayName="Case Mix by Incident Type" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{d5666449-b4bc-4134-b5f8-bd67b130315b}" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="57" type="59" schemaName="Case Mix by Incident Type" displayName="Case Mix by Incident Type" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{d5666449-b4bc-4134-b5f8-bd67b130315b}" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="57" type="59" schemaName="Case Mix by Incident Type" displayName="Case Mix by Incident Type" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{d5666449-b4bc-4134-b5f8-bd67b130315b}" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="59" schemaName="Cases By Priority (Per Day)" displayName="Cases By Priority (Per Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{df31b045-1d63-df11-ae90-00155d2e3002}" />
+        <Dependent key="13" type="60" displayName="Microsoft Dynamics 365 Social Overview" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="59" schemaName="Cases By Priority (Per Day)" displayName="Cases By Priority (Per Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{df31b045-1d63-df11-ae90-00155d2e3002}" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="59" schemaName="Cases By Priority (Per Day)" displayName="Cases By Priority (Per Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{df31b045-1d63-df11-ae90-00155d2e3002}" />
+        <Dependent key="20" type="60" displayName="Customer Service Representative Social Dashboard (original version)" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="59" schemaName="Cases By Priority (Per Day)" displayName="Cases By Priority (Per Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{df31b045-1d63-df11-ae90-00155d2e3002}" />
+        <Dependent key="9" type="60" displayName="Microsoft Dynamics 365 Overview" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="59" schemaName="Cases By Priority (Per Day)" displayName="Cases By Priority (Per Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{df31b045-1d63-df11-ae90-00155d2e3002}" />
+        <Dependent key="23" type="60" displayName="Customer Service Representative Dashboard" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="59" schemaName="Active Cases by Agent" displayName="Active Cases by Agent" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{4143b74e-4a07-4d01-9ffe-2cdcaa4208fd}" />
+        <Dependent key="22" type="60" displayName="Customer Service Manager Dashboard" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="59" schemaName="Active Cases by Agent" displayName="Active Cases by Agent" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{4143b74e-4a07-4d01-9ffe-2cdcaa4208fd}" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="59" schemaName="Entitlements Expiration" displayName="Entitlements Expiration" parentSchemaName="entitlement" parentDisplayName="Entitlement" solution="msdynce_Service (9.0.3.34)" id="{fdb919bb-c6fc-4fc8-8fa5-67ace68e41d1}" />
+        <Dependent key="22" type="60" displayName="Customer Service Manager Dashboard" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="59" schemaName="Cases By Status" displayName="Cases By Status" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{458df52a-ac99-e511-80da-00155dc1b253}" />
+        <Dependent key="24" type="60" displayName="Tier 1 Dashboard" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="59" schemaName="Sales Pipeline" displayName="Sales Pipeline" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{87293554-2482-de11-9ff3-00155da3b012}" />
+        <Dependent key="9" type="60" displayName="Microsoft Dynamics 365 Overview" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="59" schemaName="Sales Pipeline" displayName="Sales Pipeline" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{87293554-2482-de11-9ff3-00155da3b012}" />
+        <Dependent key="10" type="60" displayName="Sales Dashboard" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="59" schemaName="Sales Pipeline" displayName="Sales Pipeline" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{87293554-2482-de11-9ff3-00155da3b012}" />
+        <Dependent key="11" type="60" displayName="Sales Activity Dashboard" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="59" schemaName="Sales Pipeline" displayName="Sales Pipeline" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{87293554-2482-de11-9ff3-00155da3b012}" />
+        <Dependent key="13" type="60" displayName="Microsoft Dynamics 365 Social Overview" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="59" schemaName="Sales Pipeline" displayName="Sales Pipeline" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{87293554-2482-de11-9ff3-00155da3b012}" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="59" schemaName="Sales Pipeline" displayName="Sales Pipeline" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{87293554-2482-de11-9ff3-00155da3b012}" />
+        <Dependent key="16" type="60" displayName="Sales Performance Dashboard" id="{25b754f5-7563-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="59" schemaName="Sales Pipeline" displayName="Sales Pipeline" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{87293554-2482-de11-9ff3-00155da3b012}" />
+        <Dependent key="14" type="60" displayName="Sales Overview Dashboard" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="59" schemaName="Top Opportunities" displayName="Top Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{ebbe5dd1-8397-4be4-aa79-7b29a3af9743}" />
+        <Dependent key="11" type="60" displayName="Sales Activity Dashboard" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="59" schemaName="Top Opportunities" displayName="Top Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{ebbe5dd1-8397-4be4-aa79-7b29a3af9743}" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="59" schemaName="Top Opportunities" displayName="Top Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{ebbe5dd1-8397-4be4-aa79-7b29a3af9743}" />
+        <Dependent key="14" type="60" displayName="Sales Overview Dashboard" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="59" schemaName="Cases By Origin (Per Day)" displayName="Cases By Origin (Per Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{b9687708-255f-df11-ae90-00155d2e3002}" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="59" schemaName="Leads by Source" displayName="Leads by Source" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" id="{ee3c733d-5693-de11-97d4-00155da3b01e}" />
+        <Dependent key="11" type="60" displayName="Sales Activity Dashboard" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="59" schemaName="Leads by Source" displayName="Leads by Source" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" id="{ee3c733d-5693-de11-97d4-00155da3b01e}" />
+        <Dependent key="14" type="60" displayName="Sales Overview Dashboard" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="59" schemaName="Leads by Source" displayName="Leads by Source" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.3.34)" id="{ee3c733d-5693-de11-97d4-00155da3b01e}" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}" />
+        <Dependent key="11" type="60" displayName="Sales Activity Dashboard" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}" />
+        <Dependent key="10" type="60" displayName="Sales Dashboard" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="59" schemaName="Case Mix (By Priority)" displayName="Case Mix (By Priority)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{dde82758-2782-de11-9ff3-00155da3b012}" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="59" schemaName="Case Mix (By Priority)" displayName="Case Mix (By Priority)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{dde82758-2782-de11-9ff3-00155da3b012}" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="59" schemaName="Case Mix (By Priority)" displayName="Case Mix (By Priority)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{dde82758-2782-de11-9ff3-00155da3b012}" />
+        <Dependent key="22" type="60" displayName="Customer Service Manager Dashboard" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="59" schemaName="Revenue Generated by Campaign" displayName="Revenue Generated by Campaign" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_MarketingSales (9.0.3.34)" id="{abd3696c-a982-de11-9ff3-00155da3b012}" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="59" schemaName="Revenue Generated by Campaign" displayName="Revenue Generated by Campaign" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_MarketingSales (9.0.3.34)" id="{abd3696c-a982-de11-9ff3-00155da3b012}" />
+        <Dependent key="7" type="60" displayName="Marketing Social Dashboard" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="59" schemaName="Service Leaderboard" displayName="Service Leaderboard" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{30b20692-f56d-df11-986c-00155d2e3002}" />
+        <Dependent key="19" type="60" displayName="Customer Service Performance Dashboard (original version)" id="{2e3d0841-fa6d-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="59" schemaName="Service Leaderboard" displayName="Service Leaderboard" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{30b20692-f56d-df11-986c-00155d2e3002}" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="59" schemaName="Deals Won vs. Deals Lost By Owner" displayName="Deals Won vs. Deals Lost By Owner" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{c1cb81b1-575f-df11-ae90-00155d2e3002}" />
+        <Dependent key="16" type="60" displayName="Sales Performance Dashboard" id="{25b754f5-7563-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="59" schemaName="Sales Leaderboard" displayName="Sales Leaderboard" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.3.34)" id="{fa841229-2482-de11-9ff3-00155da3b012}" />
+        <Dependent key="16" type="60" displayName="Sales Performance Dashboard" id="{25b754f5-7563-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="59" schemaName="Campaign Budget vs. Actual Costs (By Fiscal)" displayName="Campaign Budget vs. Actual Costs (By Fiscal)" parentSchemaName="campaign" parentDisplayName="Campaign" solution="msdynce_Marketing (9.0.3.34)" id="{587523f8-d186-de11-9ff3-00155da3b012}" />
+        <Dependent key="7" type="60" displayName="Marketing Social Dashboard" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="59" schemaName="Campaign Budget vs. Actual Costs (By Fiscal)" displayName="Campaign Budget vs. Actual Costs (By Fiscal)" parentSchemaName="campaign" parentDisplayName="Campaign" solution="msdynce_Marketing (9.0.3.34)" id="{587523f8-d186-de11-9ff3-00155da3b012}" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="59" schemaName="Campaign Type Mix" displayName="Campaign Type Mix" parentSchemaName="campaign" parentDisplayName="Campaign" solution="msdynce_Marketing (9.0.3.34)" id="{8bcea361-2582-de11-9ff3-00155da3b012}" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="59" schemaName="Campaign Type Mix" displayName="Campaign Type Mix" parentSchemaName="campaign" parentDisplayName="Campaign" solution="msdynce_Marketing (9.0.3.34)" id="{8bcea361-2582-de11-9ff3-00155da3b012}" />
+        <Dependent key="7" type="60" displayName="Marketing Social Dashboard" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="59" schemaName="Case Resolution Trend" displayName="Case Resolution Trend" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{ffd9d95a-0f67-40c1-9245-c393e3e443f0}" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="59" schemaName="Top 10 KB articles by number of Linked Cases" displayName="Top 10 KB articles by number of Linked Cases" parentSchemaName="knowledgebaserecord" parentDisplayName="Knowledge Base Record" solution="msdynce_Service (9.0.3.34)" id="{ec073703-3470-4ef0-9a60-26796afa2d6d}" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="59" schemaName="Leads by Source Campaign" displayName="Leads by Source Campaign" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_Marketing (9.0.3.34)" id="{3ed18b7c-5693-de11-97d4-00155da3b01e}" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="59" schemaName="Leads by Source Campaign" displayName="Leads by Source Campaign" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_Marketing (9.0.3.34)" id="{3ed18b7c-5693-de11-97d4-00155da3b01e}" />
+        <Dependent key="9" type="60" displayName="Microsoft Dynamics 365 Overview" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="59" schemaName="Leads by Source Campaign" displayName="Leads by Source Campaign" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_Marketing (9.0.3.34)" id="{3ed18b7c-5693-de11-97d4-00155da3b01e}" />
+        <Dependent key="13" type="60" displayName="Microsoft Dynamics 365 Social Overview" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="59" schemaName="Cases By Priority" displayName="Cases By Priority" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{0f0fb995-9d6f-453c-b26d-8f443e42e676}" />
+        <Dependent key="24" type="60" displayName="Tier 1 Dashboard" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="59" schemaName="Cases By Priority" displayName="Cases By Priority" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{0f0fb995-9d6f-453c-b26d-8f443e42e676}" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="59" schemaName="Cases By Account" displayName="Cases By Account" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{38872e4f-ac99-e511-80da-00155dc1b253}" />
+        <Dependent key="24" type="60" displayName="Tier 1 Dashboard" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="59" schemaName="Cases by SLA Status Over Week" displayName="Cases by SLA Status Over Week" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{997cbf5a-1c09-4990-b174-a8ef1530092b}" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="59" schemaName="Cases by SLA Status Over Week" displayName="Cases by SLA Status Over Week" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{997cbf5a-1c09-4990-b174-a8ef1530092b}" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="59" schemaName="Cases by SLA Status Over Week" displayName="Cases by SLA Status Over Week" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{997cbf5a-1c09-4990-b174-a8ef1530092b}" />
+        <Dependent key="22" type="60" displayName="Customer Service Manager Dashboard" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="59" schemaName="Cases By Product" displayName="Cases By Product" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{17c3f166-5b22-4476-819b-b05da2e8d24f}" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="59" schemaName="Case Resolution Trend (By Day)" displayName="Case Resolution Trend (By Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{0591140a-f66d-df11-986c-00155d2e3002}" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="59" schemaName="Case Resolution Trend (By Day)" displayName="Case Resolution Trend (By Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{0591140a-f66d-df11-986c-00155d2e3002}" />
+        <Dependent key="20" type="60" displayName="Customer Service Representative Social Dashboard (original version)" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="59" schemaName="Case Resolution Trend (By Day)" displayName="Case Resolution Trend (By Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{0591140a-f66d-df11-986c-00155d2e3002}" />
+        <Dependent key="19" type="60" displayName="Customer Service Performance Dashboard (original version)" id="{2e3d0841-fa6d-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="59" schemaName="Case Resolution Trend (By Day)" displayName="Case Resolution Trend (By Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{0591140a-f66d-df11-986c-00155d2e3002}" />
+        <Dependent key="23" type="60" displayName="Customer Service Representative Dashboard" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="59" schemaName="Case Resolution Trend (By Day)" displayName="Case Resolution Trend (By Day)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{0591140a-f66d-df11-986c-00155d2e3002}" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="59" schemaName="Case Mix (By Origin)" displayName="Case Mix (By Origin)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{99782da3-a382-de11-9ff3-00155da3b012}" />
+        <Dependent key="20" type="60" displayName="Customer Service Representative Social Dashboard (original version)" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="59" schemaName="Case Mix (By Origin)" displayName="Case Mix (By Origin)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{99782da3-a382-de11-9ff3-00155da3b012}" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="59" schemaName="Case Mix (By Origin)" displayName="Case Mix (By Origin)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{99782da3-a382-de11-9ff3-00155da3b012}" />
+        <Dependent key="23" type="60" displayName="Customer Service Representative Dashboard" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="59" schemaName="Case Mix (By Origin)" displayName="Case Mix (By Origin)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.3.34)" id="{99782da3-a382-de11-9ff3-00155da3b012}" />
+        <Dependent key="24" type="60" displayName="Tier 1 Dashboard" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="19" type="60" displayName="Customer Service Performance Dashboard (original version)" solution="msdynce_Service (9.0.3.34)" id="{2e3d0841-fa6d-df11-986c-00155d2e3002}" />
+        <Dependent key="19" type="60" displayName="Customer Service Performance Dashboard (original version)" id="{2e3d0841-fa6d-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="60" displayName="Customer Service Representative Dashboard" solution="msdynce_Service (9.0.3.34)" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+        <Dependent key="23" type="60" displayName="Customer Service Representative Dashboard" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="25" type="60" displayName="Customer Service Operations Dashboard" solution="msdynce_Service (9.0.3.34)" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+        <Dependent key="25" type="60" displayName="Customer Service Operations Dashboard" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="60" displayName="Sales Performance Dashboard" solution="msdynce_Sales (9.0.3.34)" id="{25b754f5-7563-df11-ae90-00155d2e3002}" />
+        <Dependent key="16" type="60" displayName="Sales Performance Dashboard" id="{25b754f5-7563-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="60" displayName="Marketing Dashboard" solution="msdynce_Marketing (9.0.3.34)" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+        <Dependent key="6" type="60" displayName="Marketing Dashboard" id="{9de6d9a5-7863-df11-ae90-00155d2e3002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="60" displayName="Sales Overview Dashboard" solution="msdynce_Sales (9.0.3.34)" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+        <Dependent key="14" type="60" displayName="Sales Overview Dashboard" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="60" displayName="Sales Dashboard" solution="msdynce_Sales (9.0.3.34)" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+        <Dependent key="10" type="60" displayName="Sales Dashboard" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="83" type="60" displayName="App for Outlook Dashboard" solution="AppforOutlook (1.0.0.0)" id="{95f2e667-95c3-e611-80d6-00155db7dbc8}" />
+        <Dependent key="83" type="60" displayName="App for Outlook Dashboard" id="{95f2e667-95c3-e611-80d6-00155db7dbc8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="60" displayName="Customer Service Representative Social Dashboard" solution="msdynce_Service (9.0.3.34)" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="60" displayName="Sales Activity Social Dashboard" solution="msdynce_Sales (9.0.3.34)" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="60" displayName="Customer Service Performance Dashboard" solution="msdynce_Service (9.0.3.34)" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+        <Dependent key="26" type="60" displayName="Customer Service Performance Dashboard" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="60" displayName="Sales Activity Dashboard" solution="msdynce_Sales (9.0.3.34)" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+        <Dependent key="11" type="60" displayName="Sales Activity Dashboard" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="60" displayName="Marketing Social Dashboard" solution="msdynce_Marketing (9.0.3.34)" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+        <Dependent key="7" type="60" displayName="Marketing Social Dashboard" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="60" displayName="Tier 2 Dashboard" solution="msdynce_Service (9.0.3.34)" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+        <Dependent key="21" type="60" displayName="Tier 2 Dashboard" id="{acddedde-9140-4130-a1c1-96a5c6867a9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="60" displayName="Customer Service Manager Dashboard" solution="msdynce_Service (9.0.3.34)" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+        <Dependent key="22" type="60" displayName="Customer Service Manager Dashboard" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="60" displayName="Tier 1 Dashboard" solution="msdynce_Service (9.0.3.34)" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+        <Dependent key="24" type="60" displayName="Tier 1 Dashboard" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="60" displayName="Customer Service Representative Social Dashboard (original version)" solution="msdynce_Service (9.0.3.34)" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" />
+        <Dependent key="20" type="60" displayName="Customer Service Representative Social Dashboard (original version)" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="84" type="66" schemaName="MscrmControls.Grid.ReadOnlyGrid" displayName="MscrmControls.Grid.ReadOnlyGrid" solution="CustomControlsCore (9.0.0000.3172)" />
+        <Dependent key="14" type="60" displayName="Sales Overview Dashboard" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="85" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.0.0000.3172)" />
+        <Dependent key="14" type="60" displayName="Sales Overview Dashboard" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="85" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.0.0000.3172)" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="35" type="80" schemaName="es_RespiteCare" displayName="Respite Care" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="61" schemaName="msdyn_/PersonalWall.htm" displayName="msdyn_/PersonalWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="20" type="60" displayName="Customer Service Representative Social Dashboard (original version)" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="61" schemaName="msdyn_/PersonalWall.htm" displayName="msdyn_/PersonalWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="18" type="60" displayName="Customer Service Representative Social Dashboard" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="61" schemaName="msdyn_/PersonalWall.htm" displayName="msdyn_/PersonalWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="7" type="60" displayName="Marketing Social Dashboard" id="{b46aeb74-bf0c-44fb-8158-9575588d1b57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="61" schemaName="msdyn_/PersonalWall.htm" displayName="msdyn_/PersonalWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="22" type="60" displayName="Customer Service Manager Dashboard" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="61" schemaName="msdyn_/PersonalWall.htm" displayName="msdyn_/PersonalWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="13" type="60" displayName="Microsoft Dynamics 365 Social Overview" id="{5d431800-1270-40e9-a90a-c970556cf0fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="61" schemaName="msdyn_/PersonalWall.htm" displayName="msdyn_/PersonalWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="12" type="60" displayName="Sales Activity Social Dashboard" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="88" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="32" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="89" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="32" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="90" type="61" schemaName="msdyn_appmanagementcontrol" displayName="msdyn_appmanagementcontrol" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="4" type="62" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

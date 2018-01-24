@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{32abf413-42c6-e711-a954-000d3a370e23}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="es_name" select="1" preview="1" icon="1">
+        <row name="result" id="es_enrollmentperiodid">
+          <cell name="es_amountofhoursawarded" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_authorizationdateend" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_authorizationdatestart" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_hourlyrate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="es_enrollmentperiod">
+          <order attribute="es_amountofhoursawarded" descending="false" />
+          <attribute name="es_hourlyrate" />
+          <attribute name="es_authorizationdatestart" />
+          <attribute name="es_authorizationdateend" />
+          <attribute name="es_amountofhoursawarded" />
+          <attribute name="es_enrollmentperiodid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Client - Enrollment Period" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

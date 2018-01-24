@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{96dcf8fb-f5a2-4fac-b351-538c72278e97}" Name="Archive Application">
+  <XamlFileName>/Workflows/ArchiveApplication-96DCF8FB-F5A2-4FAC-B351-538C72278E97.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>3</Category>
+  <Mode>0</Mode>
+  <Scope>1</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <SdkMessageId>{e7984a4c-64c9-e711-a950-000d3a37043b}</SdkMessageId>
+  <UniqueName>ArchiveApplication</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>0.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <FormId>{00000000-0000-0000-0000-000000000000}</FormId>
+  <PrimaryEntity>es_client</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Archive Application" />
+  </LocalizedNames>
+</Workflow>

@@ -1,0 +1,138 @@
+var minimumAuthDate = null;
+var maximumAuthDate = null;
+var minimumTimePeriodDate = null;
+var maximumTimePeriodDate = null;
+
+function setUpTimeEntryRules() {
+    // get time period start and end date from voucher
+    var voucherId = Xrm.Page.getAttribute('es_voucher').getValue()[0].id;
+    console.log("voucher id: " + voucherId);
+    SDK.REST.retrieveRecord(
+        voucherId,
+        "es_voucher",
+        "es_TimePeriod,es_Client",
+        null,   // I SHOULD be able to put time period's relationship here and get it in one request...but...CRM
+        function (voucher) {
+            getTimePeriod(voucher.es_TimePeriod.Id, voucher.es_Client.Id);            
+        },
+        function (error) {
+            console.error("error getting voucher");
+        }
+    );
+}
+
+function getTimePeriod(timePeriodId, clientId) {
+    SDK.REST.retrieveRecord(
+        timePeriodId,
+        "es_timeperiod",
+        "es_StartDate,es_EndDate",
+        null,
+        function (timePeriod) {
+            console.log(timePeriod);
+            // have to adjust for timezone nonsense
+            minimumTimePeriodDate = new Date(timePeriod.es_StartDate.getTime()
+                + timePeriod.es_StartDate.getTimezoneOffset() * 60000);
+
+
+            var maxDate = new Date(timePeriod.es_EndDate.getTime()
+                + timePeriod.es_EndDate.getTimezoneOffset() * 60000);
+
+            maximumTimePeriodDate = new Date(maxDate.getFullYear(),
+                maxDate.getMonth(),
+                maxDate.getDate(),
+                23,
+                59);
+
+            getAuthorizationPeriods(clientId);
+        },
+        function (error) {
+            console.error("error getting time period");
+        }
+    );
+}
+
+function getAuthorizationPeriods(clientId) {
+    SDK.REST.retrieveMultipleRecords(
+        "es_enrollmentperiod",
+        "$filter=es_Client/Id eq guid'" + clientId + "'",
+        function (results) {
+            for (var i = 0; i < results.length; i++) {
+                var maxDateTime = new Date(results[0].es_AuthorizationDateEnd.getFullYear(),
+                    results[0].es_AuthorizationDateEnd.getMonth(),
+                    results[0].es_AuthorizationDateEnd.getDate(),
+                    23,
+                    59);
+
+                // we only care about authorization periods that overlap with our time period
+                if (results[0].es_AuthorizationDateEnd < minimumTimePeriodDate ||
+                    maximumTimePeriodDate < results[0].es_AuthorizationDateStart) {
+                    continue;
+                }
+
+                if (minimumAuthDate && results[0].es_AuthorizationDateStart < minimumAuthDate) {
+                    minimumAuthDate = results[0].es_AuthorizationDateStart;
+                } else if (!minimumAuthDate) {
+                    minimumAuthDate = results[0].es_AuthorizationDateStart;
+                }
+
+                if (maximumAuthDate && maxDateTime > maximumAuthDate) {
+                    maximumAuthDate = maxDateTime;
+                } else if (!maximumAuthDate) {
+                    maximumAuthDate = maxDateTime;
+                }
+
+            }
+
+            console.log("max auth: " + maximumAuthDate);
+            console.log("min auth: " + minimumAuthDate);
+        },
+        function (error) {
+            console.error("error retrieving enrollment periods for client");
+        },
+        function () {
+            // on complete
+        }
+    );
+}
+
+function onChangeTime() {
+    var start = Xrm.Page.getAttribute("es_starttime").getValue();
+    var end = Xrm.Page.getAttribute("es_endtime").getValue();
+
+    if (start && end) {
+        var startDate = new Date(start);
+        var endDate = new Date(end);
+
+        var endControl = Xrm.Page.getControl("es_endtime");
+        if (endDate < startDate) {
+            endControl.setNotification("End time must be after start time", "ERROR", "endTime");
+        } else {
+            // only check the time period for end date if end is after start so we don't accidentally clear notification
+            checkDateAgainstTimePeriod("es_endtime");
+        }
+
+        checkDateAgainstTimePeriod("es_starttime");
+    } else {
+        if (start) {
+            checkDateAgainstTimePeriod("es_starttime");
+        }
+        if (end) {
+            checkDateAgainstTimePeriod("es_endtime");
+        }
+    }
+}
+
+function checkDateAgainstTimePeriod(fieldName) {
+    // check dates against time period start and end date
+    var time = new Date(Xrm.Page.getAttribute(fieldName).getValue());
+
+    var timeControl = Xrm.Page.getControl(fieldName);
+
+    if (time < minimumTimePeriodDate || time > maximumTimePeriodDate) {
+        timeControl.setNotification("Date must be within the voucher's time period", "ERROR", "timePeriod");
+    } else if (time < minimumAuthDate || time > maximumAuthDate) {
+        timeControl.setNotification("Date must be within the client's authorization period", "ERROR", "authPeriod");
+    } else {
+        timeControl.clearNotification();
+    }
+}

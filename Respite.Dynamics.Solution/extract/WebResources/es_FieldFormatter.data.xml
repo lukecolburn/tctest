@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{f5c48a2e-2cc3-e711-a950-000d3a37043b}</WebResourceId>
+  <Name>es_FieldFormatter</Name>
+  <DisplayName>Field Formatter</DisplayName>
+  <Description>JS functions for formatting various fields</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/es_FieldFormatterF5C48A2E-2CC3-E711-A950-000D3A37043B</FileName>
+</WebResource>

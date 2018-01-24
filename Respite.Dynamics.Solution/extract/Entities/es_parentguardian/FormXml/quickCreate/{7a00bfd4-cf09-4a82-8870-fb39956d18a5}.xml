@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{7a00bfd4-cf09-4a82-8870-fb39956d18a5}</formid>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{2151da4d-6a86-4f17-90b1-745640d8337b}" name="tab_1" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Contact Info" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{ba240cfe-923b-4496-8534-6ca0c893bcf2}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{be343a04-61b3-9216-4494-c7d02c542934}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="es_firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e8b77539-65ca-c199-85ea-b361857aeb6a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="es_lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_lastname" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{c2e3ee21-406a-443e-90ec-2dcc6b502ff2}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{17e22e21-8b85-94c7-b289-6d0396eec761}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Relationship" languagecode="1033" />
+                        </labels>
+                        <control id="es_relationship" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="es_relationship" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40d6c5b6-5aba-a4e8-c007-0ed3a85ab010}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Guardian Relationship" languagecode="1033" />
+                        </labels>
+                        <control id="es_guardianrelationship" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_guardianrelationship" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{adfd684f-a297-45c8-906d-55730a081548}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{56180e17-2adc-d377-4732-17c9a78de295}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cell Phone" languagecode="1033" />
+                        </labels>
+                        <control id="es_cellphone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_cellphone" disabled="false" uniqueid="{e43b9d8c-b89b-3003-4a48-a4c853d0d52e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a797466b-a728-ad66-5a2d-69cb35381d29}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Employed" languagecode="1033" />
+                        </labels>
+                        <control id="es_employed" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="es_employed" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="es_FieldFormatter" libraryUniqueId="{13ade81c-7c18-48d1-598b-7392d4a722b4}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="es_cellphone">
+          <Handlers>
+            <Handler functionName="FieldFormatter.phoneNumber" libraryName="es_FieldFormatter" handlerUniqueId="{8ee31437-b78d-bc27-3cdd-cc684a21761b}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Contact Info - Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

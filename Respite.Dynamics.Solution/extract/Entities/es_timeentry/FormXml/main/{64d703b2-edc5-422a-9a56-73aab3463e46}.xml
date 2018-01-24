@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{64d703b2-edc5-422a-9a56-73aab3463e46}</formid>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{21b32fcf-8a37-4ce9-9579-f0562eb6aae5}" IsUserDefined="1" labelid="{c2008400-f85c-42be-9abb-efe2aacfcb05}" name="{21b32fcf-8a37-4ce9-9579-f0562eb6aae5}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{5a94a6be-8e83-4c41-a1f5-08a05ba3bc15}" labelid="{2cf46612-20d3-4c26-a945-e14c57c13e29}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9e9ae637-6bde-3dc6-78b0-2c34ee012d64}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Voucher" languagecode="1033" />
+                        </labels>
+                        <control id="es_voucher" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="es_voucher" disabled="true" uniqueid="{7cedc8b0-00c4-d581-ab18-0c89c0527b84}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{898269B9-2899-40D3-96EB-666B1E066320}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{21b32fcf-8a37-4ce9-9579-f0562eb6aae5}_section_2" showlabel="false" showbar="false" locklevel="0" id="{66518467-edad-91e3-3e3c-4eb134098c20}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cc3b24b1-28ad-b117-6555-e756e1ee9a82}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Start Time" languagecode="1033" />
+                        </labels>
+                        <control id="es_starttime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_starttime" disabled="false" />
+                      </cell>
+                      <cell id="{abbeecc6-18a2-6346-038a-17e7ddeb1a5b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activities" languagecode="1033" />
+                        </labels>
+                        <control id="es_activities" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="es_activities" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26a20ed5-98a0-5112-be89-4d0182ead360}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="End Time" languagecode="1033" />
+                        </labels>
+                        <control id="es_endtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_endtime" disabled="false" />
+                      </cell>
+                      <cell id="{868322e0-c6c8-0709-7e64-8158c49c7dea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Other Activities" languagecode="1033" />
+                        </labels>
+                        <control id="es_otheractivities" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_otheractivities" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20033182-ba24-7c53-de0b-d77d1c861971}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Hours" languagecode="1033" />
+                        </labels>
+                        <control id="es_totalhours" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="es_totalhours" disabled="false" />
+                      </cell>
+                      <cell id="{c1666b16-3ae4-8b86-d420-ce70c71d4594}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d7359d21-ae51-ebe4-6b3a-9d3570a1c525}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Location" languagecode="1033" />
+                        </labels>
+                        <control id="es_location" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="es_location" disabled="false" />
+                      </cell>
+                      <cell id="{60bb0234-ec18-4d40-d731-3b354272ea6d}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{1f57ed01-64d9-4bf3-9389-f74e5202716b}" columns="111">
+        <rows>
+          <row>
+            <cell id="{4d24b775-1216-4c46-a3ac-075a16501175}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bc6d39c8-3736-ee64-e554-b2854a006412}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Name" languagecode="1033" />
+              </labels>
+              <control id="header_es_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_name" disabled="true" uniqueid="{aa97dd18-6e13-7621-c9cd-4a2abe4a3d46}" />
+            </cell>
+            <cell id="{d61ab91a-455b-a5a2-889e-4b5d8e14589b}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{92873FC1-61C9-E711-A950-000D3A37043B}" />
+        <Role Id="{320C1BB8-61C9-E711-A950-000D3A37043B}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

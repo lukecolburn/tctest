@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>es_RespiteCare</UniqueName>
+  <IntroducedVersion>0.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="es_RespiteCare" />
+    <AppModuleComponent type="60" id="{ef89da63-f0c3-e711-a950-000d3a37043b}" />
+    <AppModuleComponent type="1" schemaName="es_application" />
+    <AppModuleComponent type="1" schemaName="es_child" />
+    <AppModuleComponent type="1" schemaName="es_client" />
+    <AppModuleComponent type="60" id="{fa600a42-f913-4efe-aac4-2857fa7536db}" />
+    <AppModuleComponent type="60" id="{799f7fb1-31cc-4054-b73e-f772e4b944cf}" />
+    <AppModuleComponent type="26" id="{5e93355c-c6cb-e711-a950-000d3a37043b}" />
+    <AppModuleComponent type="1" schemaName="es_enrollmentperiod" />
+    <AppModuleComponent type="1" schemaName="es_parentguardian" />
+    <AppModuleComponent type="1" schemaName="es_provider" />
+    <AppModuleComponent type="26" id="{b6c46e21-c759-4e50-99cb-49d0813b38ab}" />
+    <AppModuleComponent type="26" id="{1c886f42-d1c4-e711-a953-000d3a370868}" />
+    <AppModuleComponent type="26" id="{58b00179-d9c4-e711-a953-000d3a370868}" />
+    <AppModuleComponent type="26" id="{11749470-4fc6-e711-a950-000d3a3702ca}" />
+    <AppModuleComponent type="26" id="{be86bcad-d0c4-e711-a953-000d3a370868}" />
+    <AppModuleComponent type="26" id="{6582bc5f-8ec5-e711-a952-000d3a370909}" />
+    <AppModuleComponent type="26" id="{6b4c6dd7-8ec5-e711-a952-000d3a370909}" />
+    <AppModuleComponent type="26" id="{2db48832-90c5-e711-a952-000d3a370909}" />
+    <AppModuleComponent type="1" schemaName="es_timeentry" />
+    <AppModuleComponent type="1" schemaName="es_timeperiod" />
+    <AppModuleComponent type="1" schemaName="es_voucher" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{92873fc1-61c9-e711-a950-000d3a37043b}" />
+    <Role id="{320c1bb8-61c9-e711-a950-000d3a37043b}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{a4be89ff-7c35-4d69-9900-999c3f603e6f}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Respite Care" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Manage respite care clients, people and vouchers" languagecode="1033" />
+  </Descriptions>
+</AppModule>

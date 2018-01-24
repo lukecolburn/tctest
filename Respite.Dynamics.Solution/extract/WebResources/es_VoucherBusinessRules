@@ -1,0 +1,116 @@
+
+function checkVoucherTimePeriod() {
+    // get time period record
+    var clientAttribute = Xrm.Page.getAttribute('es_client').getValue();
+    var timePeriodAttribute = Xrm.Page.getAttribute('es_timeperiod').getValue();
+
+    if (clientAttribute && timePeriodAttribute) {
+        var timePeriodId = timePeriodAttribute[0].id;
+
+        SDK.REST.retrieveRecord(
+            timePeriodId,
+            "es_timeperiod",
+            "es_StartDate,es_EndDate",
+            null,
+            function (timePeriod) {
+                console.log(timePeriod);
+                // have to adjust for timezone nonsense
+                var timePeriodStart = new Date(timePeriod.es_StartDate.getTime()
+                    + timePeriod.es_StartDate.getTimezoneOffset() * 60000);
+
+
+                var timePeriodEnd = new Date(timePeriod.es_EndDate.getTime()
+                    + timePeriod.es_EndDate.getTimezoneOffset() * 60000);
+
+                checkEnrollmentPeriods(clientAttribute, timePeriodStart, timePeriodEnd);
+            },
+            function (error) {
+                console.error("error getting time period");
+            });
+    }
+
+
+    // check for overlaps with time period and enrollment periods
+}
+
+function checkEnrollmentPeriods(clientAttribute, timePeriodStart, timePeriodEnd) {
+    var clientId = clientAttribute[0].id;
+
+    SDK.REST.retrieveMultipleRecords(
+        "es_enrollmentperiod",
+        "$filter=es_Client/Id eq guid'" + clientId + "'",
+        function (results) {
+            var valid = false;
+            for (i = 0; i < results.length; i++) {
+                if (results[i].es_AuthorizationDateEnd >= timePeriodStart &&
+                    timePeriodEnd >= results[i].es_AuthorizationDateStart) {
+                    valid = true;
+                    break;
+                }
+            }
+
+            var timePeriodControl = Xrm.Page.getControl("es_timeperiod");
+            if (!valid) {
+                // add error
+                timePeriodControl.setNotification("Time period must overlap with client's enrollment period", "ERROR", "timePeriod");
+            } else {
+                // clear error
+                timePeriodControl.clearNotification();
+            }
+        },
+        function (error) {
+            console.error("error retrieving enrollment periods for client");
+        },
+        function () {
+            // on complete
+        });
+}
+
+function checkForProviderSignature() {
+    // get provider id and client id
+    var clientAttribute = Xrm.Page.getAttribute('es_client').getValue();
+    var providerAttribute = Xrm.Page.getAttribute('es_provider').getValue();
+
+    if (clientAttribute && providerAttribute) {
+        var clientId = clientAttribute[0].id;
+        var providerId = providerAttribute[0].id;
+
+
+        // get provider apps for provider and client
+        SDK.REST.retrieveMultipleRecords(
+            "es_providerapplication",
+            "$filter=es_Client/Id eq guid'" + clientId + "' and es_Provider/Id eq guid'" + providerId + "'&amp;$top=1&amp;$orderby=createdon desc",
+            function (results) {             
+                var valid = false;
+                if (results.length > 0) {
+                    // apparently crm is going to ignore my "top" odata parameter...naturally
+                    var newestProviderApp = results.sort(function (firstApp, secondApp) {
+                        // sort by desc
+                        if (firstApp.CreatedOn > secondApp.CreatedOn) return -1;
+                        if (firstApp.CreatedOn < secondApp.CreatedOn) return 1;
+                        return 0;
+                    })[0];
+
+                    if (newestProviderApp.es_ProviderSignatureDate) {
+                        valid = true;
+                    }
+                }
+
+                var providerControl = Xrm.Page.getControl("es_provider");
+                if (!valid) {
+                    providerControl.setNotification("Provider has not signed application", "ERROR", "providerSignature");
+                } else {
+                    providerControl.clearNotification();
+                }
+            },
+            function (error) {
+                console.error("error retrieving enrollment periods for client");
+            },
+            function () {
+                // on complete
+            });
+
+        // check most recent provider app for signature
+    }
+}
+

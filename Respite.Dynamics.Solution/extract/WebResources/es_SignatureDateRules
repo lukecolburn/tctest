@@ -1,0 +1,23 @@
+function setSignatureDateRequired(isSignedFieldName, signatureDateFieldName) {
+    var entity = Xrm.Page.data.entity;
+    var isSignedField = entity.attributes.get(isSignedFieldName);
+    var signatureDate = entity.attributes.get(signatureDateFieldName);
+    if (((isSignedField) == undefined || (isSignedField) == null || (isSignedField) === "") || ((signatureDate) == undefined || (signatureDate) == null || (signatureDate) === "")) {
+        return;
+    }
+    var isSigned = (isSignedField) ? isSignedField.getValue() : null;
+    if ((isSigned) == (true) || ((isSigned) == true && (true) == '1') || ((isSigned) == false && (true) == '0') || ((isSigned) == '1' && (true) == true) || ((isSigned) == '0' && (true) == false)) {
+        signatureDate.controls.forEach(function (c, i) {
+            c.setDisabled(false);
+        });
+        signatureDate.setRequiredLevel('required');
+    }
+    else if (true) {
+        signatureDate.controls.forEach(function (c, i) {
+            c.setDisabled(true);
+        });
+        signatureDate.setRequiredLevel('none');
+        signatureDate.setValue(null);
+    }
+
+}

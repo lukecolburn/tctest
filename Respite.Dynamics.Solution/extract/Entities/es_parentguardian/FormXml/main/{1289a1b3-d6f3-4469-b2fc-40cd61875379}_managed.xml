@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{1289a1b3-d6f3-4469-b2fc-40cd61875379}</formid>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{14350af7-3ef7-447e-b211-2ef619daa49e}" IsUserDefined="1" name="{14350af7-3ef7-447e-b211-2ef619daa49e}" locklevel="0" expanded="true" showlabel="false" labelid="{273cc24e-5d01-41a0-b23e-28849a1ee21d}">
+          <labels>
+            <label description="Contact Info" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{a90bbd4a-6df9-4339-b659-4f64c8be5379}" name="{a90bbd4a-6df9-4339-b659-4f64c8be5379}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" labelid="{d4e45be5-35cd-4aae-bed7-5fb0c4b67ba3}">
+                  <labels>
+                    <label description="Enter Parent/Guardian Info" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bb9a1d89-7e7a-aac1-4e90-3a50e18cd429}" showlabel="true" locklevel="0" labelid="{392b815e-57b7-453e-8773-9a280356e976}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_firstname" disabled="false" />
+                      </cell>
+                      <cell id="{db7c4182-d066-7032-d489-83aa4d29ab9b}" showlabel="true" locklevel="0" labelid="{5c2aeb89-09dd-4a17-b7fd-c6e2b816b194}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_relationship" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="es_relationship" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{361c6b27-68e6-4475-24ed-91e612beb6ea}" showlabel="true" locklevel="0" labelid="{d124a9bb-20f2-493c-807e-f77b986a3dda}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_lastname" disabled="false" />
+                      </cell>
+                      <cell id="{e21cec81-9388-8aba-c857-b22162029019}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_guardianrelationship" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_guardianrelationship" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{91300938-c6e9-9909-b6a8-21499beb63d0}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{31696da5-8396-d18c-17ab-cb83b7b01a5d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_cellphone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_cellphone" disabled="false" uniqueid="{8b80ea88-4a1e-3cb0-9862-064c6c50d6d5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{408e967b-8ae0-ab16-94d5-cac19829e078}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{88635a22-41ec-7980-0517-88bc46c3a5eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="es_employed" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="es_employed" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9429dcb-1473-88e9-e047-a428543b039c}" showlabel="false" colspan="2" auto="false" rowspan="6">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="Clients" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{122C1F5D-4676-4C40-B03F-0D7D5C78685B}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>es_es_client_es_parentguardian</RelationshipName>
+                            <TargetEntityType>es_client</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{122C1F5D-4676-4C40-B03F-0D7D5C78685B}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{020e4fdc-7591-4dc1-8a82-80f6eda8153c}" columns="111">
+        <rows>
+          <row>
+            <cell id="{ca644466-32da-449f-b118-63c6d8ceef29}" labelid="{a9d6df95-afec-424e-8f69-cf82cec852d4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b3d147ba-7d0b-dec2-9d5d-68d7d4836ec9}" showlabel="true" locklevel="0" labelid="{f3850174-a7d7-4672-ae0c-85ca40d6ad99}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_es_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_name" disabled="true" uniqueid="{6ca6ddae-2a50-a6b3-25e5-db3ab5688bd0}" />
+            </cell>
+            <cell id="{378c4860-32b3-8441-b3aa-d4006c46d38c}" showlabel="true" locklevel="0" labelid="{1f25e87d-9955-4f29-a382-bee677c159ac}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true" uniqueid="{e11eed76-0052-41b7-a24d-79d9e14020e4}">
+                <parameters>
+                  <AutoResolve>true</AutoResolve>
+                  <DisableMru>false</DisableMru>
+                </parameters>
+              </control>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="es_FieldFormatter" libraryUniqueId="{029d5cc0-7c5e-eacb-396e-b9bc6c6caad2}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="es_cellphone">
+          <Handlers>
+            <Handler functionName="FieldFormatter.phoneNumber" libraryName="es_FieldFormatter" handlerUniqueId="{0680d179-b7a7-8eb3-4483-9914064bea71}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{92873FC1-61C9-E711-A950-000D3A37043B}" />
+        <Role Id="{320C1BB8-61C9-E711-A950-000D3A37043B}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Contact Info" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

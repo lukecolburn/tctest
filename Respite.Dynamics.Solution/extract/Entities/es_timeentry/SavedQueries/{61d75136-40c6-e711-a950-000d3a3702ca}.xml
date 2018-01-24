@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{61d75136-40c6-e711-a950-000d3a3702ca}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="es_name" select="1" preview="1" icon="1">
+        <row name="result" id="es_timeentryid">
+          <cell name="es_endtime" width="100" />
+          <cell name="es_starttime" width="100" />
+          <cell name="es_totalhours" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="es_timeentry">
+          <order attribute="es_endtime" descending="false" />
+          <attribute name="es_starttime" />
+          <attribute name="es_endtime" />
+          <attribute name="es_totalhours" />
+          <attribute name="es_timeentryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Time Entries Subgrid" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{014f1942-bd29-4ea6-9450-3d60d3dfb2ef}</formid>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{50f44313-c0d3-4e84-a677-7358c0b04617}" labelid="{872a46d4-b4e7-42b5-996a-24b9922c3392}" verticallayout="true" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{e6485062-ae72-4284-8018-c4f911252382}" labelid="{0510add0-0ed5-40b1-8250-0e0fd04df57e}" IsUserDefined="0" showlabel="false" showbar="false">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2dab9e8e-8330-b5b9-8d7d-95b840ed3d2c}" labelid="{b29185d8-252c-4e2e-b552-57ff98404328}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="es_firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_firstname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4854bd66-7a49-52bd-e7d6-6c9c37d727c6}" labelid="{80f261d1-4e42-4e74-bdab-5e73a6ae3ea1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="es_lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_lastname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da8b8d24-40cd-e71b-5b5d-980952d9484d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="es_dateofbirth" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_dateofbirth" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c40d9515-65c4-7011-85e1-0306894a8022}" labelid="{db3800bc-cc66-4553-b0fc-3909e87c3830}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="es_receivesrespitefromeasterseals" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="es_receivesrespitefromeasterseals" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{fcde6738-bc27-419b-8023-ba0d4cb98dd2}" columns="111">
+        <rows>
+          <row>
+            <cell id="{3483fe04-935e-428d-860c-120a48345f94}" labelid="{ee580eb1-286c-4444-a05d-23775ff27d65}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{55883a5d-ba00-7cdd-3220-ba68ea4702c0}" labelid="{347a01ba-66a4-4a8d-912f-1ada8c570213}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control disabled="true" id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{b8b03472-d17a-2d48-e57b-bd038db54300}">
+                <parameters>
+                  <AutoResolve>true</AutoResolve>
+                  <DisableMru>false</DisableMru>
+                </parameters>
+              </control>
+            </cell>
+            <cell id="{76493eb2-49d1-a733-0abe-ca7c10c54ac0}" labelid="{a41dbad6-35ed-43a7-8d24-b350d240b493}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control disabled="true" id="header_es_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_name" uniqueid="{0d5e86ad-ab64-4125-1ce3-11d81641096c}" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

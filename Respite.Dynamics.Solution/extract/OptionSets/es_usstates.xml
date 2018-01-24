@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="es_usstates" localizedName="US States" description="List of all US states excluding territories.">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>0.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="US States" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="List of all US states excluding territories." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="717580000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Alabama" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Alaska" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Arizona" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Arkansas" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="California" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Colorado" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Connecticut" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Delaware" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580008" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Florida" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580009" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Georgia" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580010" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Hawaii" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580011" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Idaho" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580012" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Illinois" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580013" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Indiana" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580014" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Iowa" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580015" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Kansas" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580016" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Kentucky" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580017" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Louisiana" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580018" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Maine" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580019" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Maryland" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580020" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Massachusetts" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580021" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Michigan" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580022" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Minnesota" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580023" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Mississippi" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580024" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Missouri" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580025" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Montana" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580026" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Nebraska" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580027" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Nevada" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580028" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="New Hampshire" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580029" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="New Jersey" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580030" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="New Mexico" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580031" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="New York" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580032" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="North Carolina" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580033" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="North Dakota" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580034" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Ohio" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580035" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Oklahoma" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580036" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Oregon" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580037" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Pennsylvania" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580038" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Rhode Island" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580039" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="South Carolina" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580040" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="South Dakota" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580041" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Tennessee" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580042" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Texas" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580043" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Utah" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580044" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Vermont" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580045" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Virginia" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580046" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Washington" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580047" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="West Virginia" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580048" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Wisconsin" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="717580049" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Wyoming" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

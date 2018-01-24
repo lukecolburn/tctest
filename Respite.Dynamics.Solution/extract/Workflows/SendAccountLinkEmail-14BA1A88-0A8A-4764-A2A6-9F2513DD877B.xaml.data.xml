@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{14ba1a88-0a8a-4764-a2a6-9f2513dd877b}" Name="Send Account Link Email">
+  <XamlFileName>/Workflows/SendAccountLinkEmail-14BA1A88-0A8A-4764-A2A6-9F2513DD877B.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>3</Category>
+  <Mode>0</Mode>
+  <Scope>1</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <SdkMessageId>{b0efcf08-adcf-e711-a953-000d3a37062b}</SdkMessageId>
+  <UniqueName>SendAccountLinkEmail</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>0.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <FormId>{00000000-0000-0000-0000-000000000000}</FormId>
+  <PrimaryEntity>es_client</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Send Account Link Email" />
+  </LocalizedNames>
+</Workflow>

@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{a0657097-0dbb-40b8-a05a-4e93ca852e40}</formid>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{5a51aeb4-ac4c-44f6-b126-0f4b36b08ea4}" IsUserDefined="1" name="{5a51aeb4-ac4c-44f6-b126-0f4b36b08ea4}" locklevel="0" expanded="true" showlabel="true" labelid="{58166bae-d594-4627-8186-bd9c582c0426}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="{5a51aeb4-ac4c-44f6-b126-0f4b36b08ea4}_section_3" showlabel="false" showbar="false" locklevel="0" id="{2a068754-79ac-997e-5b65-512ec556553c}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d6c88bec-ae82-4118-42c1-243575d5071b}" showlabel="true" locklevel="0" labelid="{e7b98716-d7bf-453a-a0ca-e24051490149}">
+                        <labels>
+                          <label description="Client" languagecode="1033" />
+                        </labels>
+                        <control id="es_client" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="es_client" disabled="false" uniqueid="{828881cb-2341-3197-018b-8891a20560e8}">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E0ADC1E5-4655-4E57-B957-65F2DCFB93B0}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{c65d1d37-a05b-0012-2926-592e0c6ec1a8}" showlabel="true" locklevel="0" labelid="{009fc66c-e76a-4f1a-897f-a058bc8b3fd1}">
+                        <labels>
+                          <label description="Reimbursement to Parent/Guardian" languagecode="1033" />
+                        </labels>
+                        <control id="es_reimbursementtoparentguardian" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="es_reimbursementtoparentguardian" disabled="false" uniqueid="{e0b07b3c-1808-e229-36b7-a4d08b35270d}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{3D0407AC-B07C-45FA-9D46-977F547B09ED}</DefaultViewId>
+                            <FilterRelationshipName>es_es_client_es_parentguardian</FilterRelationshipName>
+                            <DependentAttributeName>es_voucher.es_client</DependentAttributeName>
+                            <DependentAttributeType>es_client</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{b1d31ca3-02ad-1075-6e91-5b75b033e046}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Hours" languagecode="1033" />
+                        </labels>
+                        <control id="es_totalhours" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="es_totalhours" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b04257bd-89a6-294d-bbb4-7e74249e9593}" showlabel="true" locklevel="0" labelid="{ba05c17e-0dce-49bd-abb4-88dfec56661a}">
+                        <labels>
+                          <label description="Provider" languagecode="1033" />
+                        </labels>
+                        <control id="es_provider" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="es_provider" disabled="false" uniqueid="{5e9ac77e-adeb-e9d9-8952-b471177282ac}">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{AE13DDD8-62EA-E711-A956-000D3A370E23}</DefaultViewId>
+                            <FilterRelationshipName>es_es_client_es_provider</FilterRelationshipName>
+                            <DependentAttributeName>es_voucher.es_client</DependentAttributeName>
+                            <DependentAttributeType>es_client</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{AE13DDD8-62EA-E711-A956-000D3A370E23}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{e77905bc-80da-e06a-55cc-d32c79247594}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Time Period" languagecode="1033" />
+                        </labels>
+                        <control id="es_timeperiod" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="es_timeperiod" disabled="false" uniqueid="{96564081-deb7-9dcb-3b3a-04514ea43d7e}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{1A2BFCB3-6DC5-E711-A953-000D3A370868}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{BB1FDDDB-9DF9-4A7A-AA78-3B1398C447D0}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{23a4823a-60c9-6ca1-228e-1a32c050a832}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent/Guardian Signature Date" languagecode="1033" />
+                        </labels>
+                        <control id="es_parentguardiansignaturedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_parentguardiansignaturedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6cca8e91-a41a-8e94-645d-3aa5905c2d99}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ProviderSignatureDate" languagecode="1033" />
+                        </labels>
+                        <control id="es_providersignaturedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_providersignaturedate" disabled="false" />
+                      </cell>
+                      <cell id="{2e781802-b174-45eb-1083-30ad815e2431}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{9d4c588d-6c3b-8cb4-bc30-25c1a522e415}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{5a51aeb4-ac4c-44f6-b126-0f4b36b08ea4}_section_2" showlabel="true" showbar="false" locklevel="0" id="{b99d36e0-5346-6207-73e5-b4ae723cc84b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{c97e69ea-8e07-468a-a3b0-94abe8db06a5}">
+                  <labels>
+                    <label description="Client Info" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ee567871-b45b-16ca-41c4-6e2a178ddae8}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Client Info" languagecode="1033" />
+                        </labels>
+                        <control id="client_view" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="es_client" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="es_client"&gt;72a0c22a-320e-4b1d-9722-5280baa3b4cb&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{893c98b1-1953-ec36-c1e6-63de2e5a5126}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{88a85611-c41e-44ab-862f-617aadf65206}">
+          <labels>
+            <label description="Time Entries" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{43d7cbed-9932-687d-9478-96c4ed113031}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{99f3e1a5-cc1f-4dd0-a230-6d85a3c650da}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6c03e2b9-ed78-ee95-1676-e5d3398ca08d}" showlabel="false" colspan="1" auto="false" rowspan="9">
+                        <labels>
+                          <label description="Time Entries (Voucher)" languagecode="1033" />
+                        </labels>
+                        <control id="time_entries_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{dac7c62c-ca3a-505a-7825-336682c4b8b8}">
+                          <parameters>
+                            <ViewId>{61D75136-40C6-E711-A950-000D3A3702CA}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>es_es_voucher_es_timeentry_Voucher</RelationshipName>
+                            <TargetEntityType>es_timeentry</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{1336C877-CD7C-4A21-96CB-3FBD563A63A6},{61D75136-40C6-E711-A950-000D3A3702CA}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>7</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{6baedb43-3b42-0a06-8796-7e34cb2c703b}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Notes" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{1a81e723-b2db-0d70-06ac-8aeb83adbc02}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b0b5e67e-8c78-cb33-2bc0-3331353413ca}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{1a6bc33b-ce06-6d2c-819e-731a64a7bed6}" disabled="false">
+                          <parameters>
+                            <UClientUniqueName>Notes</UClientUniqueName>
+                            <UClientModules>Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>false</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{17660940-b8e7-4ed3-a7eb-1bdd5512f96f}" columns="111">
+        <rows>
+          <row>
+            <cell id="{11cd5cce-1ed3-41dc-b1be-d2354959ba91}" labelid="{a17de410-d333-4612-a6b1-2a78fb250993}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9c6120da-0732-d793-b724-295baa530b42}" showlabel="true" locklevel="0" labelid="{7ebd4be8-3636-4de0-917d-01c8b9757326}">
+              <labels>
+                <label description="Name" languagecode="1033" />
+              </labels>
+              <control id="header_es_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_name" disabled="true" uniqueid="{4cdd6101-ea40-3534-e9a2-4a4649845d28}" />
+            </cell>
+            <cell id="{eb11d712-3c96-ceb6-2ab9-202717dde896}" showlabel="true" locklevel="0" labelid="{5b15811c-df70-457a-a533-7334aabab380}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="es_SDK.REST.js" libraryUniqueId="{9dc4eedb-09b6-6580-7963-131a59491371}" />
+        <Library name="es_VoucherBusinessRules" libraryUniqueId="{e0cd0071-4b30-49ed-d906-8a11e398b355}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="es_timeperiod">
+          <Handlers>
+            <Handler functionName="checkVoucherTimePeriod" libraryName="es_VoucherBusinessRules" handlerUniqueId="{150a27e2-456a-4794-4665-395cc7b90bdc}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="es_client">
+          <Handlers>
+            <Handler functionName="checkVoucherTimePeriod" libraryName="es_VoucherBusinessRules" handlerUniqueId="{b61e358d-9572-e8c2-889a-1d6ce966cb44}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="checkForProviderSignature" libraryName="es_VoucherBusinessRules" handlerUniqueId="{e334b96a-433c-2400-9046-b5c08a845d8a}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="es_provider">
+          <Handlers>
+            <Handler functionName="checkForProviderSignature" libraryName="es_VoucherBusinessRules" handlerUniqueId="{840cb003-b554-9863-7894-736546895046}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{92873FC1-61C9-E711-A950-000D3A37043B}" />
+        <Role Id="{320C1BB8-61C9-E711-A950-000D3A37043B}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

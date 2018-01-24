@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{f5403ed2-97ea-e711-a952-000d3a37043b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="es_name" select="1" icon="1" preview="1">
+        <row name="result" id="es_voucherid">
+          <cell name="es_provider" width="150" />
+          <cell name="es_client" width="150" />
+          <cell name="es_parentguardiansignaturedate" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="es_voucher">
+          <attribute name="es_parentguardiansignaturedate" />
+          <attribute name="es_provider" />
+          <attribute name="es_client" />
+          <filter type="and">
+            <condition attribute="es_providersignaturedate" operator="null" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Unsigned Hours" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

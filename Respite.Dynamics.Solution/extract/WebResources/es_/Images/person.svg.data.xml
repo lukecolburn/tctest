@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{d79c4871-e9c3-e711-a954-000d3a370e23}</WebResourceId>
+  <Name>es_/Images/person.svg</Name>
+  <DisplayName>Person</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>0.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/es_ImagespersonsvgD79C4871-E9C3-E711-A954-000D3A370E23</FileName>
+</WebResource>

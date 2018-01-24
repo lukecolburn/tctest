@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{a8bb4299-40c3-e711-a953-000d3a37062b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="es_name" select="1" preview="1" icon="1">
+        <row name="result" id="es_parentguardianid">
+          <cell name="es_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_relationship" width="100" />
+          <cell name="es_cellphone" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="es_employed" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="es_parentguardian">
+          <attribute name="es_name" />
+          <order attribute="es_name" descending="false" />
+          <attribute name="es_relationship" />
+          <attribute name="es_employed" />
+          <attribute name="es_cellphone" />
+          <attribute name="es_parentguardianid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Client Parents/Guardians" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{58ca7a59-838e-4be5-97f0-f1eab37fdff4}</formid>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{42471b2e-cb4d-4257-9da0-06b87220e555}" name="tab_1" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Enrollment" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{6507c1d7-b882-4dc6-918a-f69aadb7fa0c}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{be34350a-4198-ccac-61ce-1ed8968c248e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Amount of Hours Awarded" languagecode="1033" />
+                        </labels>
+                        <control id="es_amountofhoursawarded" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="es_amountofhoursawarded" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d137557e-a9b0-2435-811d-56e4ae39a41e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Hourly Rate" languagecode="1033" />
+                        </labels>
+                        <control id="es_hourlyrate" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="es_hourlyrate" disabled="false" uniqueid="{21e648c0-84c5-9558-5997-5c13b1287b85}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{e3c33c28-d1f5-4707-8fac-ad970b504f6f}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2a7a85b1-3055-1dc7-5442-dca26b72c4c0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Authorization Date Start" languagecode="1033" />
+                        </labels>
+                        <control id="es_authorizationdatestart" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_authorizationdatestart" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22651b71-e8a9-828d-b7d7-2eec6d9e31c9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Authorization Date End" languagecode="1033" />
+                        </labels>
+                        <control id="es_authorizationdateend" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_authorizationdateend" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{0d9b42cd-41d8-4f15-976b-ee061eb64f4b}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ced439a9-324a-7d32-bc18-3514d93deead}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main - Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

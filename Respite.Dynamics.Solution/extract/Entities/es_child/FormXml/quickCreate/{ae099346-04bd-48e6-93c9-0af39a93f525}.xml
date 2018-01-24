@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ae099346-04bd-48e6-93c9-0af39a93f525}</formid>
+    <IntroducedVersion>0.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{16088848-22be-4850-8179-c3d2ccd6ad52}" name="tab_1" showlabel="false" locklevel="0" expanded="true" labelid="{f73b9969-9205-4854-874e-775cb703c53b}">
+          <labels>
+            <label description="Child Living in Home" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{f0ca61d6-157d-4b07-a3f4-c6529c6aa69a}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{8c490e76-b287-4f8f-b915-b4905190c4c5}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{43a36ea5-ca27-e671-98d6-25078e4a7912}" showlabel="true" locklevel="0" labelid="{d8eb973d-1161-4230-96f4-59f991c9eb3b}">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="es_firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34a0672e-b336-9266-3aa5-1005086cc7b4}" showlabel="true" locklevel="0" labelid="{0ff823a6-7bf3-4dde-a099-8a2dcbaac54f}">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="es_lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="es_lastname" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{b53621bf-212f-4717-8d26-cc3ff73dab91}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{ae70cb2a-1c5f-4d46-93c4-a0a5667fdc4c}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b9b4aaa2-ce40-a1dd-1835-895de3be7488}" showlabel="true" locklevel="0" labelid="{760c1ea9-5fda-47a9-9e8f-d306e22e4b63}">
+                        <labels>
+                          <label description="Date of Birth" languagecode="1033" />
+                        </labels>
+                        <control id="es_dateofbirth" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="es_dateofbirth" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{9b8c8985-1c82-4dc5-940b-52eb292338e4}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{f3b6c5d6-14ea-4c5d-b24d-2787abf9660e}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c34b83c3-541b-3969-dab2-beac54b5bd6b}" showlabel="true" locklevel="0" labelid="{92cbcc03-e8ce-4058-89cb-46b9ac704896}">
+                        <labels>
+                          <label description="Receives Respite from Easter Seals?" languagecode="1033" />
+                        </labels>
+                        <control id="es_receivesrespitefromeasterseals" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="es_receivesrespitefromeasterseals" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <DisplayConditions Order="2">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

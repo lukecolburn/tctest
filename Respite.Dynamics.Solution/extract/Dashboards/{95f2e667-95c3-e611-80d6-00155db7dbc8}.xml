@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <LocalizedNames>
+    <LocalizedName description="App for Outlook Dashboard" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{95f2e667-95c3-e611-80d6-00155db7dbc8}</FormId>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{9325DCB6-26F7-4066-BE97-4B2FFE62C04D}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section height="auto" showlabel="false" showbar="false" columns="111" id="{7CF70195-3E2F-4B98-BDAB-E43234D16AED}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row height="auto">
+                        <cell colspan="1" rowspan="1" showlabel="false" ispreviewcell="false" id="{72f109ac-d4f3-415f-81c7-b72f11152e21}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="TrackBar" uniqueid="{351e4f22-0823-4558-9e79-f70f7566d81f}" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" isunbound="true">
+                            <parameters>
+                              <Border>false</Border>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row height="auto">
+                        <cell colspan="1" rowspan="1" showlabel="false" ispreviewcell="false" id="{90A97225-FF60-40E1-9BC5-341BC391A9BA}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="EmailEngagement" uniqueid="{4C92D8FF-090A-420C-9238-C558D920F834}" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" isunbound="true">
+                            <parameters>
+                              <Border>false</Border>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row height="auto">
+                        <cell colspan="1" rowspan="1" showlabel="false" ispreviewcell="false" id="{074D0740-E5ED-4F77-8E42-F9C5FE4E3AAF}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="RegardingObject" uniqueid="{01D11971-4733-47F0-8C9D-B9C31F826F82}" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" isunbound="true">
+                            <parameters>
+                              <Border>false</Border>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row height="auto">
+                        <cell colspan="1" rowspan="1" showlabel="false" ispreviewcell="false" id="{DB9E30D9-3E9C-467C-ACDF-4EFE6FD70182}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="HiddenData" uniqueid="{6E87DC1D-5D11-35B4-0A2E-285ED3954D9B}" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" isunbound="true">
+                            <parameters>
+                              <Border>false</Border>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row height="auto">
+                        <cell colspan="1" rowspan="1" showlabel="false" ispreviewcell="false" id="{08152740-FF3D-4C15-85BF-54564E867344}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="RecipientsTab" uniqueid="{BBB596E7-C948-465E-88BA-BC044E0AFCB6}" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" isunbound="true">
+                            <parameters>
+                              <Border>false</Border>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row height="auto">
+                        <cell colspan="1" rowspan="1" showlabel="false" ispreviewcell="false" id="{D483C7BD-2766-49FE-864E-0C4046793233}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="UnknownRecipientSummary" uniqueid="{D2C44E0A-DAC2-43E4-BC04-3D36D823071B}" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" isunbound="true">
+                            <parameters>
+                              <Border>false</Border>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row height="auto">
+                        <cell colspan="1" rowspan="1" showlabel="false" ispreviewcell="false" id="{90A97225-FF60-40E1-9BC5-341BC391A9BA}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="SelectedRecipientCard" uniqueid="{F5091377-9413-4ADE-B6CD-F96E810D8DDF}" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" isunbound="true">
+                            <parameters>
+                              <Border>false</Border>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row height="auto">
+                        <cell colspan="1" rowspan="1" showlabel="false" ispreviewcell="false" id="{B6D2DF08-5AA7-44D3-830E-23ABCBE80CCC}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="SelectedRecipientView" uniqueid="{07495CE9-C23A-47FF-82EA-ACA13810CA60}" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" isunbound="true">
+                            <parameters>
+                              <Border>false</Border>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <controlDescriptions>
+          <controlDescription forControl="{4C92D8FF-090A-420C-9238-C558D920F834}">
+            <customControl formFactor="2" name="MscrmControls.EmailEngagement.EmailView">
+              <parameters>
+                <TimelineBehavior type="Enum" static="true">Collapsed</TimelineBehavior>
+              </parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.EmailEngagement.EmailView">
+              <parameters>
+                <TimelineBehavior type="Enum" static="true">Collapsed</TimelineBehavior>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.EmailEngagement.EmailView">
+              <parameters>
+                <TimelineBehavior type="Enum" static="true">Collapsed</TimelineBehavior>
+              </parameters>
+            </customControl>
+          </controlDescription>
+          <controlDescription forControl="{01D11971-4733-47F0-8C9D-B9C31F826F82}">
+            <customControl formFactor="2" name="MscrmControls.Containers.QuickFormWrapper">
+              <parameters>
+                <formType type="SingleLine.Text" static="true">QuickFormCardControl</formType>
+                <label type="SingleLine.Text" static="true">$REGARDING$ {TypeName}</label>
+                <predefinedForms type="SingleLine.Text" static="true">contact#cdbb9298-3b2e-41f3-8f4a-0168d6b09fc4,lead#d228d73e-e56e-48b3-ab95-0a06b1397b03</predefinedForms>
+              </parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.Containers.QuickFormWrapper">
+              <parameters>
+                <formType type="SingleLine.Text" static="true">QuickFormCardControl</formType>
+                <label type="SingleLine.Text" static="true">$REGARDING$ {TypeName}</label>
+                <predefinedForms type="SingleLine.Text" static="true">contact#cdbb9298-3b2e-41f3-8f4a-0168d6b09fc4,lead#d228d73e-e56e-48b3-ab95-0a06b1397b03</predefinedForms>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.Containers.QuickFormWrapper">
+              <parameters>
+                <formType type="SingleLine.Text" static="true">QuickFormCardControl</formType>
+                <label type="SingleLine.Text" static="true">$REGARDING$ {TypeName}</label>
+                <predefinedForms type="SingleLine.Text" static="true">contact#cdbb9298-3b2e-41f3-8f4a-0168d6b09fc4,lead#d228d73e-e56e-48b3-ab95-0a06b1397b03</predefinedForms>
+              </parameters>
+            </customControl>
+          </controlDescription>
+          <controlDescription forControl="{6E87DC1D-5D11-35B4-0A2E-285ED3954D9B}">
+            <customControl formFactor="2" name="MscrmControls.MailApp.MailAppHiddenDataCustomControl">
+              <parameters></parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.MailApp.MailAppHiddenDataCustomControl">
+              <parameters></parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.MailApp.MailAppHiddenDataCustomControl">
+              <parameters></parameters>
+            </customControl>
+          </controlDescription>
+          <controlDescription forControl="{D2C44E0A-DAC2-43E4-BC04-3D36D823071B}">
+            <customControl formFactor="2" name="MscrmControls.MailApp.UnknownRecipientSummaryControl">
+              <parameters>
+                <entityTypesToAdd type="SingleLine.Text" static="true">contact,lead</entityTypesToAdd>
+              </parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.MailApp.UnknownRecipientSummaryControl">
+              <parameters>
+                <entityTypesToAdd type="SingleLine.Text" static="true">contact,lead</entityTypesToAdd>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.MailApp.UnknownRecipientSummaryControl">
+              <parameters>
+                <entityTypesToAdd type="SingleLine.Text" static="true">contact,lead</entityTypesToAdd>
+              </parameters>
+            </customControl>
+          </controlDescription>
+          <controlDescription forControl="{BBB596E7-C948-465E-88BA-BC044E0AFCB6}">
+            <customControl formFactor="2" name="MscrmControls.MailApp.MailAppRecipientsTabControl">
+              <parameters></parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.MailApp.MailAppRecipientsTabControl">
+              <parameters></parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.MailApp.MailAppRecipientsTabControl">
+              <parameters></parameters>
+            </customControl>
+          </controlDescription>
+          <controlDescription forControl="{F5091377-9413-4ADE-B6CD-F96E810D8DDF}">
+            <customControl formFactor="2" name="MscrmControls.Containers.QuickFormWrapper">
+              <parameters>
+                <formType type="SingleLine.Text" static="true">QuickFormCardControl</formType>
+                <hideImage type="Whole.None" static="true">1</hideImage>
+                <predefinedForms type="SingleLine.Text" static="true">contact#cdbb9298-3b2e-41f3-8f4a-0168d6b09fc4,lead#d228d73e-e56e-48b3-ab95-0a06b1397b03</predefinedForms>
+              </parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.Containers.QuickFormWrapper">
+              <parameters>
+                <formType type="SingleLine.Text" static="true">QuickFormCardControl</formType>
+                <hideImage type="Whole.None" static="true">1</hideImage>
+                <predefinedForms type="SingleLine.Text" static="true">contact#cdbb9298-3b2e-41f3-8f4a-0168d6b09fc4,lead#d228d73e-e56e-48b3-ab95-0a06b1397b03</predefinedForms>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.Containers.QuickFormWrapper">
+              <parameters>
+                <formType type="SingleLine.Text" static="true">QuickFormCardControl</formType>
+                <hideImage type="Whole.None" static="true">1</hideImage>
+                <predefinedForms type="SingleLine.Text" static="true">contact#cdbb9298-3b2e-41f3-8f4a-0168d6b09fc4,lead#d228d73e-e56e-48b3-ab95-0a06b1397b03</predefinedForms>
+              </parameters>
+            </customControl>
+          </controlDescription>
+          <controlDescription forControl="{07495CE9-C23A-47FF-82EA-ACA13810CA60}">
+            <customControl formFactor="2" name="MscrmControls.Containers.QuickFormWrapper">
+              <parameters>
+                <formType type="SingleLine.Text" static="true">QuickForm</formType>
+                <predefinedForms type="SingleLine.Text" static="true">contact#3d22ab88-96c8-4b3f-a533-d4827e2925c9,lead#95192c4e-f96e-4771-b10a-e6421c908533,systemuser#DO_NOT_SHOW</predefinedForms>
+              </parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.Containers.QuickFormWrapper">
+              <parameters>
+                <formType type="SingleLine.Text" static="true">QuickForm</formType>
+                <predefinedForms type="SingleLine.Text" static="true">contact#3d22ab88-96c8-4b3f-a533-d4827e2925c9,lead#95192c4e-f96e-4771-b10a-e6421c908533,systemuser#DO_NOT_SHOW</predefinedForms>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.Containers.QuickFormWrapper">
+              <parameters>
+                <formType type="SingleLine.Text" static="true">QuickForm</formType>
+                <predefinedForms type="SingleLine.Text" static="true">contact#3d22ab88-96c8-4b3f-a533-d4827e2925c9,lead#95192c4e-f96e-4771-b10a-e6421c908533,systemuser#DO_NOT_SHOW</predefinedForms>
+              </parameters>
+            </customControl>
+          </controlDescription>
+          <controlDescription forControl="{351e4f22-0823-4558-9e79-f70f7566d81f}">
+            <customControl formFactor="2" name="MscrmControls.MailApp.MailAppTrackBarControl">
+              <parameters></parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.MailApp.MailAppTrackBarControl">
+              <parameters></parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.MailApp.MailAppTrackBarControl">
+              <parameters></parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+        <DisplayConditions></DisplayConditions>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsTabletEnabled>1</IsTabletEnabled>
+</Dashboard>

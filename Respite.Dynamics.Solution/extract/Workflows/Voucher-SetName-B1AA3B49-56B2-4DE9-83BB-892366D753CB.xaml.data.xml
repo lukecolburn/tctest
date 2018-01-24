@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{b1aa3b49-56b2-4de9-83bb-892366d753cb}" Name="Voucher - Set Name">
+  <XamlFileName>/Workflows/Voucher-SetName-B1AA3B49-56B2-4DE9-83BB-892366D753CB.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>es_reimbursementtoparentguardian,es_provider,es_client</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>0.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>es_voucher</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Voucher - Set Name" />
+  </LocalizedNames>
+</Workflow>

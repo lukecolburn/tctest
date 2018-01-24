@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Respite.Dynamics.Plugins.PostCreateApplicationPlugin: Create of es_application" SdkMessageProcessingStepId="{4d126748-8cc9-e711-a950-000d3a37043b}">
+  <PluginTypeName>Respite.Dynamics.Plugins.PostCreateApplicationPlugin, Respite.Dynamics.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b31f11db6d509d64</PluginTypeName>
+  <PluginTypeId>a42e4995-b131-4500-ad14-f2d61ba5fa82</PluginTypeId>
+  <PrimaryEntity>es_application</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Respite.Dynamics.Plugins.PostCreateApplicationPlugin: Create of es_application</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>1</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>
